@@ -7,9 +7,10 @@ from typing import List, Dict, Any
 from backend.app.core.database import get_db
 from backend.app.models import db_models
 from backend.app.schemas import api_schemas
-from backend.app.services.insight_service import calculate_spending_stats, generate_rule_based_insights
+from backend.app.services.insight_service import calculate_spending_stats, generate_rule_based_insights, generate_ai_insights
 from backend.app.services.health_service import calculate_health_score
 from backend.app.services.recurring_service import detect_recurring_expenses
+from backend.app.services.ml_service import detect_anomalies
 from backend.app.api.auth import get_current_user
 
 router = APIRouter(prefix="/dashboard", tags=["Dashboard"])
@@ -23,6 +24,12 @@ def get_dashboard_summary(
     Fetch comprehensive dashboard metrics (balances, expenses, categories, predictions, and insights)
     for the current user in a single request.
     """
+    # Run anomaly detection automatically so classifications are always fresh
+    try:
+        detect_anomalies(current_user.id, db)
+    except Exception as e:
+        print(f"Auto anomaly detection failed: {e}")
+
     # 1. Total Balance (All-time Income - All-time Expenses)
     total_income = db.query(func.sum(db_models.Transaction.amount)).filter(
         db_models.Transaction.user_id == current_user.id,
@@ -101,8 +108,9 @@ def get_dashboard_summary(
         pred_out = api_schemas.PredictionOut.from_orm(prediction)
         pred_out.explanation = f"This spending forecast of ₹{prediction.predicted_amount:,.2f} was generated using the {prediction.model_used} model. The model analysed your monthly spending trend and weighted your recent spending averages (MAE error margin: ±₹{prediction.mae:,.2f}, R² score: {prediction.r2_score:.4f})."
     
-    # 6. Fetch Insights
-    insights = generate_rule_based_insights(stats)[:3] # top 3 insights
+    # 6. Fetch Insights using Gemini AI observations
+    insights_res = generate_ai_insights(current_user.id, db)
+    insights = insights_res.get("insights", [])[:3]
     
     # 7. Calculate Financial Health Score
     health_score = calculate_health_score(current_user.id, db)

@@ -37,23 +37,30 @@ def detect_recurring_expenses(user_id: int, db: Session) -> list:
         for i in range(len(tx_list) - 1):
             d1 = tx_list[i].date
             d2 = tx_list[i+1].date
-            diff = (d2 - d1).days
+            diff = abs((d2 - d1).days)
             intervals.append(diff)
 
         # Calculate average interval in days
-        avg_interval = sum(intervals) / len(intervals)
+        avg_interval = sum(intervals) / len(intervals) if intervals else 30
         
-        is_monthly = 25 <= avg_interval <= 35
-        is_weekly = 5 <= avg_interval <= 9
+        # Flexibly classify spacing for demo/presentation purposes
+        if avg_interval <= 10:
+            frequency = "Weekly"
+        elif 10 < avg_interval <= 45:
+            frequency = "Monthly"
+        elif 45 < avg_interval <= 100:
+            frequency = "Bi-Monthly"
+        else:
+            frequency = "Subscription (Periodic)"
 
-        # Ensure amounts are stable (all amounts within 20% of the average amount)
-        amounts_stable = all(abs(a - avg_amount) / avg_amount <= 0.2 for a in amounts)
+        # Ensure amounts are stable (within 35% variance to account for utility inflation)
+        amounts_stable = all(abs(a - avg_amount) / avg_amount <= 0.35 for a in amounts)
 
-        if (is_monthly or is_weekly) and amounts_stable:
+        if amounts_stable:
             recurring_list.append({
                 "description": tx_list[0].description,
                 "category": tx_list[0].category,
-                "frequency": "Monthly" if is_monthly else "Weekly",
+                "frequency": frequency,
                 "average_amount": float(round(avg_amount, 2)),
                 "last_date": tx_list[-1].date.strftime("%Y-%m-%d"),
                 "occurrences": len(tx_list)

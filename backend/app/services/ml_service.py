@@ -275,7 +275,7 @@ def detect_anomalies(user_id: int, db: Session) -> Tuple[int, List[Dict[str, Any
         db_models.Transaction.type == "expense"
     ).all()
     
-    if len(transactions) < 5:
+    if len(transactions) < 3:
         # Not enough data to model isolation forest. Return empty anomaly list.
         return 0, []
         
