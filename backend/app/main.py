@@ -1,4 +1,5 @@
 import os
+from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
@@ -11,11 +12,19 @@ from backend.app.models import db_models
 # Import API Routers
 from backend.app.api import auth, dashboard, transactions, budgets, predictions, insights, reports, users, savings
 
+# Define lifespan event handler
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Seed default categories on startup
+    seed_categories()
+    yield
+
 # Initialize FastAPI App
 app = FastAPI(
     title=settings.APP_NAME,
     description="Backend API for AI-Powered Personal Finance Assistant",
-    version="1.0.0"
+    version="1.0.0",
+    lifespan=lifespan
 )
 
 # Configure CORS Middleware
@@ -58,10 +67,6 @@ def seed_categories():
     finally:
         db.close()
 
-# Run seed on application startup
-@app.on_event("startup")
-def on_startup():
-    seed_categories()
 
 # Register API Routers
 app.include_router(auth.router, prefix="/api")
