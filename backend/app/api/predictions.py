@@ -50,7 +50,7 @@ def run_prediction(
         existing_pred.r2_score = result["r2_score"]
         db.commit()
         db.refresh(existing_pred)
-        return existing_pred
+        pred_obj = existing_pred
     else:
         db_pred = db_models.Prediction(
             user_id=current_user.id,
@@ -64,7 +64,11 @@ def run_prediction(
         db.add(db_pred)
         db.commit()
         db.refresh(db_pred)
-        return db_pred
+        pred_obj = db_pred
+
+    out = api_schemas.PredictionOut.from_orm(pred_obj)
+    out.explanation = result["explanation"]
+    return out
 
 
 @router.post("/anomalies")

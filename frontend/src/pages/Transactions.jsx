@@ -37,6 +37,44 @@ export default function Transactions() {
   // Statement Ingestion State
   const [uploadFile, setUploadFile] = useState(null);
   const [uploading, setUploading] = useState(false);
+  const [ocrLoading, setOcrLoading] = useState(false);
+
+  const handleOcrScan = async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+
+    setOcrLoading(true);
+    showToast("Scanning receipt, please wait...", "info");
+    
+    const formData = new FormData();
+    formData.append("file", file);
+
+    try {
+      const response = await api.post("/transactions/ocr", formData, {
+        headers: {
+          "Content-Type": "multipart/form-data"
+        }
+      });
+      
+      const { merchant, amount, date, category, error } = response.data;
+      if (error) {
+        showToast(`OCR warning: ${error}`, "warning");
+      }
+      
+      if (merchant) setTxDesc(merchant);
+      if (amount) setTxAmount(amount.toString());
+      if (date) setTxDate(date);
+      if (category) setTxCategory(category);
+      
+      showToast("Receipt details extracted successfully!", "success");
+    } catch (err) {
+      console.error(err);
+      showToast("Failed to scan receipt. Please check your API key.", "error");
+    } finally {
+      setOcrLoading(false);
+      e.target.value = "";
+    }
+  };
 
   const categories = ["Food", "Travel", "Shopping", "Bills", "Medical", "Entertainment", "Education", "Others"];
 
@@ -381,8 +419,11 @@ export default function Transactions() {
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-center">
                       {tx.is_anomaly ? (
-                        <span className="px-2 py-0.5 bg-red-100 text-red-800 dark:bg-red-950/60 dark:text-red-300 rounded font-semibold animate-pulse">
-                          Suspicious Outlier
+                        <span 
+                          title={tx.anomaly_explanation || "Suspicious Outlier"}
+                          className="px-2 py-0.5 bg-red-100 text-red-800 dark:bg-red-950/60 dark:text-red-300 rounded font-semibold animate-pulse cursor-help"
+                        >
+                          ⚠️ Anomaly
                         </span>
                       ) : (
                         <span className="text-gray-400 font-semibold">-</span>
@@ -441,6 +482,33 @@ export default function Transactions() {
         <div className="fixed inset-0 z-50 bg-black/40 flex items-center justify-center p-4">
           <div className="bg-white rounded-2xl max-w-md w-full p-6 dark:bg-gray-800 border border-gray-100 dark:border-gray-700 shadow-xl space-y-4">
             <h3 className="text-base font-bold border-b pb-2">Add Transaction Record</h3>
+            
+            {/* OCR Scanner widget */}
+            <div className="bg-blue-50 dark:bg-blue-950/40 p-3 rounded-xl border border-blue-100 dark:border-blue-900/50 space-y-1.5">
+              <span className="block font-bold text-xs text-blue-700 dark:text-blue-300">
+                ⚡ Smart Receipt Scan (AI)
+              </span>
+              <p className="text-[10px] text-blue-600 dark:text-blue-400">
+                Upload a receipt photo to auto-fill description, amount, date, and category.
+              </p>
+              <div className="flex items-center gap-2">
+                <input
+                  type="file"
+                  accept="image/*"
+                  id="receipt-ocr-upload"
+                  className="hidden"
+                  onChange={handleOcrScan}
+                  disabled={ocrLoading}
+                />
+                <label
+                  htmlFor="receipt-ocr-upload"
+                  className="inline-flex cursor-pointer items-center justify-center rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-3 py-1.5 text-[10px] font-bold shadow-sm transition-colors disabled:opacity-50"
+                >
+                  📸 {ocrLoading ? "Scanning Receipt..." : "Upload Receipt Photo"}
+                </label>
+              </div>
+            </div>
+
             <form onSubmit={handleAddSubmit} className="space-y-4 text-xs">
               
               <div>

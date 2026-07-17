@@ -19,6 +19,28 @@ export default function Dashboard() {
   const [dailySpending, setDailySpending] = useState([]);
   const [budgets, setBudgets] = useState({});
 
+  // Chat & AI Search State
+  const [chatQuery, setChatQuery] = useState('');
+  const [chatResponse, setChatResponse] = useState('');
+  const [chatLoading, setChatLoading] = useState(false);
+  const [recurringBills, setRecurringBills] = useState([]);
+
+  const handleChatSubmit = async (e) => {
+    e.preventDefault();
+    if (!chatQuery.trim()) return;
+    setChatLoading(true);
+    setChatResponse('');
+    try {
+      const res = await api.post('/insights/query', { query: chatQuery });
+      setChatResponse(res.data.response);
+    } catch (err) {
+      console.error(err);
+      setChatResponse("Could not process your question. Please verify your connection.");
+    } finally {
+      setChatLoading(false);
+    }
+  };
+
   const fetchDashboardData = async () => {
     try {
       setError('');
@@ -32,6 +54,14 @@ export default function Dashboard() {
         bMap[b.category] = b.limit_amount;
       });
       setBudgets(bMap);
+
+      // Fetch recurring bills
+      try {
+        const recRes = await api.get('/dashboard/recurring');
+        setRecurringBills(recRes.data);
+      } catch (err) {
+        console.error("Failed to load recurring bills:", err);
+      }
 
       // Fetch all transactions to calculate cumulative daily trend for current month
       const txRes = await api.get('/transactions?limit=100');
@@ -217,6 +247,39 @@ export default function Dashboard() {
         </div>
       </div>
 
+      {/* AI Assistant Chat Query Box */}
+      <div className="bg-white rounded-2xl p-5 shadow-sm border border-gray-100 dark:bg-gray-800 dark:border-gray-700 space-y-3">
+        <h3 className="text-sm font-bold flex items-center gap-1.5">
+          <span>💬</span> Ask WealthWise AI (Natural Language Search)
+        </h3>
+        <p className="text-[11px] text-gray-500 dark:text-gray-400">
+          Query your finances: *"How much did I spend on food last month?"*, *"Do I have anomalies?"*, or *"Show my recent expenses."*
+        </p>
+        <form onSubmit={handleChatSubmit} className="flex gap-2">
+          <input
+            type="text"
+            required
+            placeholder="Ask a question about your transactions..."
+            className="flex-1 rounded-lg border border-gray-200 dark:border-gray-700 px-3 py-2 text-xs bg-transparent focus:ring-2 focus:ring-blue-500"
+            value={chatQuery}
+            onChange={(e) => setChatQuery(e.target.value)}
+            disabled={chatLoading}
+          />
+          <button
+            type="submit"
+            disabled={chatLoading}
+            className="px-4 py-2 text-xs font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-lg shadow-sm transition-colors disabled:opacity-50"
+          >
+            {chatLoading ? "Asking..." : "Ask AI"}
+          </button>
+        </form>
+        {chatResponse && (
+          <div className="p-3 bg-blue-50/50 dark:bg-blue-900/10 rounded-xl text-xs border border-blue-100/50 dark:border-blue-900/30 leading-relaxed text-gray-800 dark:text-gray-200">
+            <b>AI Assistant:</b> {chatResponse}
+          </div>
+        )}
+      </div>
+
       {/* Row 1: Key Metrics Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         
@@ -353,6 +416,11 @@ export default function Dashboard() {
                   <p><b>Mean Absolute Error:</b> ₹{data.prediction.mae.toFixed(2)}</p>
                   <p><b>Root Mean Squared Error:</b> ₹{data.prediction.rmse.toFixed(2)}</p>
                   <p><b>R&sup2; Variance Score:</b> {data.prediction.r2_score.toFixed(4)}</p>
+                  {data.prediction.explanation && (
+                    <div className="mt-3 p-2.5 bg-blue-50/50 dark:bg-blue-950/30 rounded-lg border border-blue-100/50 dark:border-blue-900/30 text-[10px] italic leading-relaxed text-gray-600 dark:text-gray-300">
+                      <b>AI Explanation:</b> {data.prediction.explanation}
+                    </div>
+                  )}
                 </div>
               </div>
             ) : (
@@ -383,8 +451,8 @@ export default function Dashboard() {
 
       </div>
 
-      {/* Row 4: Recent Transactions & AI Insights */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      {/* Row 4: Recent Transactions, AI Insights, & Detected Subscriptions */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         
         {/* Recent Transactions List */}
         <div className="bg-white rounded-2xl p-5 shadow-sm border border-gray-100 dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between">
@@ -394,7 +462,7 @@ export default function Dashboard() {
               {data.recent_transactions.length > 0 ? (
                 data.recent_transactions.map((tx) => (
                   <div key={tx.id} className="py-2.5 flex items-center justify-between text-xs">
-                    <div>
+                     <div>
                       <p className="font-semibold text-gray-800 dark:text-gray-200">{tx.description}</p>
                       <p className="text-[10px] text-gray-500">{tx.date} &bull; {tx.category}</p>
                     </div>
@@ -403,8 +471,11 @@ export default function Dashboard() {
                         {tx.type === 'income' ? '+' : '-'}₹{tx.amount.toFixed(2)}
                       </p>
                       {tx.is_anomaly && (
-                        <span className="inline-block text-[9px] bg-red-100 text-red-800 dark:bg-red-950/60 dark:text-red-300 font-semibold px-1 rounded animate-pulse">
-                          Suspicious
+                        <span 
+                          title={tx.anomaly_explanation || "Suspicious Outlier"}
+                          className="inline-block text-[9px] bg-red-100 text-red-800 dark:bg-red-950/60 dark:text-red-300 font-semibold px-1 rounded animate-pulse cursor-help"
+                        >
+                          ⚠️ Anomaly
                         </span>
                       )}
                     </div>
@@ -431,6 +502,35 @@ export default function Dashboard() {
                 ))
               ) : (
                 <p className="text-xs text-gray-400 py-6 text-center">No AI insights generated yet. Please import transactions.</p>
+              )}
+            </div>
+          </div>
+        </div>
+
+        {/* Detected Recurring Subscriptions */}
+        <div className="bg-white rounded-2xl p-5 shadow-sm border border-gray-100 dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between">
+          <div>
+            <h4 className="text-sm font-bold border-b border-gray-100 pb-2 mb-3 dark:border-gray-700">Detected Subscriptions & Bills</h4>
+            <div className="divide-y divide-gray-100 dark:divide-gray-700">
+              {recurringBills.length > 0 ? (
+                recurringBills.map((bill, idx) => (
+                  <div key={idx} className="py-2.5 flex items-center justify-between text-xs">
+                    <div>
+                      <p className="font-semibold text-gray-800 dark:text-gray-200">{bill.description}</p>
+                      <p className="text-[10px] text-gray-500">
+                        {bill.frequency} &bull; {bill.category} &bull; Paid {bill.occurrences}x
+                      </p>
+                    </div>
+                    <div className="text-right">
+                      <p className="font-bold text-blue-600">
+                        ₹{bill.average_amount.toFixed(2)}
+                      </p>
+                      <p className="text-[9px] text-gray-400">Last: {bill.last_date}</p>
+                    </div>
+                  </div>
+                ))
+              ) : (
+                <p className="text-xs text-gray-400 py-6 text-center">No recurring subscriptions or monthly bills detected yet.</p>
               )}
             </div>
           </div>

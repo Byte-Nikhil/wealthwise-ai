@@ -172,13 +172,19 @@ def predict_next_month_expenses(user_id: int, db: Session) -> Dict[str, Any]:
     # We need at least 4 months of history to create lag & rolling features and train a model
     if len(monthly) < 4:
         # Graceful fallback: Simple average with standard deviation
-        avg_spending = monthly["amount"].mean()
+        avg_spending = monthly["amount"].mean() if not monthly.empty else 0.0
+        explanation_str = (
+            f"This fallback forecast of ₹{avg_spending:,.2f} is a simple average of your historical monthly expenses. "
+            "To unlock advanced Machine Learning forecasting models (Linear Regression & Random Forest), "
+            "please record spending across at least 4 distinct months."
+        )
         return {
             "prediction": float(round(avg_spending, 2)),
             "model_used": "Historical Average (Fallback - Insufficient Data)",
             "mae": 0.0,
             "rmse": 0.0,
             "r2_score": 1.0,
+            "explanation": explanation_str,
             "historical_data": monthly.to_dict(orient="records"),
             "warning": "Need at least 4 months of historical transactions for machine learning models. Showing simple average."
         }
@@ -233,12 +239,19 @@ def predict_next_month_expenses(user_id: int, db: Session) -> Dict[str, Any]:
     # Ensure prediction is non-negative
     next_month_pred = max(0.0, next_month_pred)
     
+    explanation_str = (
+        f"This spending forecast of ₹{next_month_pred:,.2f} was generated using the {best_model_name} model. "
+        f"The prediction weighs your last month's spending of ₹{next_lag_1:,.2f} and your 3-month rolling average of ₹{next_rolling_mean_3:,.2f}. "
+        f"The model was trained with an average absolute error margin of ±₹{best_mae:,.2f} (R² fit score: {best_r2:.4f})."
+    )
+    
     return {
         "prediction": float(round(next_month_pred, 2)),
         "model_used": best_model_name,
         "mae": float(round(best_mae, 2)),
         "rmse": float(round(best_rmse, 2)),
         "r2_score": float(round(best_r2, 4)),
+        "explanation": explanation_str,
         "historical_data": monthly[["month", "amount"]].to_dict(orient="records")
     }
 

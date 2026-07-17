@@ -12,6 +12,28 @@ from backend.app.models import db_models
 from backend.app.schemas import api_schemas
 from backend.app.api.auth import get_current_user
 from backend.app.services.ml_service import predict_category
+from backend.app.services.ocr_service import extract_receipt_details
+from sqlalchemy import func
+
+def populate_explanation(t: db_models.Transaction, avg_expense: float) -> api_schemas.TransactionOut:
+    t_out = api_schemas.TransactionOut.from_orm(t)
+    if t.is_anomaly:
+        SUSPICIOUS_KEYWORDS = [
+            "drugs", "drug", "weapons", "weapon", "beer", "whine", "wine", 
+            "whiskey", "liquor", "pub", "casino", "gambling", "betting"
+        ]
+        desc_lower = t.description.lower()
+        triggered = [kw for kw in SUSPICIOUS_KEYWORDS if kw in desc_lower]
+        if triggered:
+            t_out.anomaly_explanation = f"Flagged due to suspicious keyword: '{triggered[0]}' in description."
+        elif avg_expense > 0 and t.amount > avg_expense:
+            ratio = ((t.amount - avg_expense) / avg_expense) * 100
+            t_out.anomaly_explanation = f"Amount ₹{t.amount:,.2f} is statistically anomalous. It is {ratio:.1f}% higher than your average expense of ₹{avg_expense:,.2f}."
+        else:
+            t_out.anomaly_explanation = "Flagged as a statistical outlier by the Isolation Forest model."
+    else:
+        t_out.anomaly_explanation = "Regular spending behavior."
+    return t_out
 
 router = APIRouter(prefix="/transactions", tags=["Transactions"])
 
@@ -42,7 +64,12 @@ def create_transaction(
     db.add(db_transaction)
     db.commit()
     db.refresh(db_transaction)
-    return db_transaction
+    
+    avg_expense = db.query(func.avg(db_models.Transaction.amount)).filter(
+        db_models.Transaction.user_id == current_user.id,
+        db_models.Transaction.type == "expense"
+    ).scalar() or 0.0
+    return populate_explanation(db_transaction, avg_expense)
 
 
 @router.get("", response_model=api_schemas.PaginatedTransactions)
@@ -89,8 +116,15 @@ def get_transactions(
     offset = (page - 1) * limit
     transactions = query.offset(offset).limit(limit).all()
     
+    avg_expense = db.query(func.avg(db_models.Transaction.amount)).filter(
+        db_models.Transaction.user_id == current_user.id,
+        db_models.Transaction.type == "expense"
+    ).scalar() or 0.0
+    
+    tx_out_list = [populate_explanation(t, avg_expense) for t in transactions]
+    
     return {
-        "transactions": transactions,
+        "transactions": tx_out_list,
         "total_count": total_count,
         "page": page,
         "limit": limit
@@ -124,7 +158,12 @@ def update_transaction(
         
     db.commit()
     db.refresh(db_transaction)
-    return db_transaction
+    
+    avg_expense = db.query(func.avg(db_models.Transaction.amount)).filter(
+        db_models.Transaction.user_id == current_user.id,
+        db_models.Transaction.type == "expense"
+    ).scalar() or 0.0
+    return populate_explanation(db_transaction, avg_expense)
 
 
 @router.delete("/{transaction_id}", status_code=status.HTTP_200_OK)
@@ -294,3 +333,22 @@ def export_transactions_csv(
     }
     
     return StreamingResponse(io.BytesIO(output.getvalue().encode("utf-8")), media_type="text/csv", headers=headers)
+
+
+@router.post("/ocr")
+async def scan_receipt(
+    file: UploadFile = File(...),
+    current_user: db_models.User = Depends(get_current_user)
+):
+    """
+    Upload a receipt image and extract structured transaction details.
+    """
+    if not file.content_type.startswith("image/"):
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Invalid file format. Please upload an image."
+        )
+        
+    image_bytes = await file.read()
+    details = extract_receipt_details(image_bytes, file.content_type)
+    return details

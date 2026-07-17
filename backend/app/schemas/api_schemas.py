@@ -65,6 +65,7 @@ class TransactionOut(BaseModel):
     category: str
     is_anomaly: bool
     anomaly_score: Optional[float] = None
+    anomaly_explanation: Optional[str] = None
     created_at: dt_datetime
 
     class Config:
@@ -110,6 +111,7 @@ class PredictionOut(BaseModel):
     mae: Optional[float] = None
     rmse: Optional[float] = None
     r2_score: Optional[float] = None
+    explanation: Optional[str] = None
     created_at: dt_datetime
 
     class Config:
@@ -177,4 +179,14 @@ class SavingsGoalUpdate(BaseModel):
     target_amount: Optional[float] = Field(None, gt=0)
     current_amount: Optional[float] = Field(None, ge=0)
     target_date: Optional[dt_date] = None
+
+
+# --- CHAT / NATURAL LANGUAGE SEARCH SCHEMAS ---
+class ChatQueryInput(BaseModel):
+    """Schema for user chat/search input queries."""
+    query: str
+
+class ChatQueryOutput(BaseModel):
+    """Schema for returning conversational AI responses."""
+    response: str
 
