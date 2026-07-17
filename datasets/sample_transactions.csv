@@ -1,0 +1,1001 @@
+Date,Description,Amount,Transaction Type,Category
+2025-01-23,Corporate Monthly Salary Paycheck,3094.31,income,Salary
+2025-01-24,Xbox Live Game Store Purchase,59.86,expense,Entertainment
+2025-01-24,CVS Pharmacy prescription,56.64,expense,Medical
+2025-01-25,Best Buy Electronics Store,240.87,expense,Shopping
+2025-01-27,Dominos Pizza delivery,20.11,expense,Food
+2025-01-27,Xbox Live Game Store Purchase,37.61,expense,Entertainment
+2025-01-28,Walmart Grocery Store,93.69,expense,Food
+2025-01-30,Best Buy Electronics Store,251.47,expense,Shopping
+2025-02-01,Dental Care Clinic Orthodontics,210.6,expense,Medical
+2025-02-02,Xbox Live Game Store Purchase,38.45,expense,Entertainment
+2025-02-03,Rent Payment Apartment,1200.0,expense,Bills
+2025-02-03,CVS Pharmacy prescription,24.77,expense,Medical
+2025-02-03,State DMV Vehicle Registration,51.13,expense,Others
+2025-02-04,Disneyland Theme Park Ticket,196.15,expense,Entertainment
+2025-02-04,Coursera Data Science Certification,39.22,expense,Education
+2025-02-05,UberEats Restaurant Delivery,40.56,expense,Food
+2025-02-06,Whole Foods Grocery Delivery,78.46,expense,Food
+2025-02-07,Dominos Pizza delivery,32.93,expense,Food
+2025-02-07,AMC Movie Theatre Tickets,13.66,expense,Entertainment
+2025-02-08,Netflix Streaming Subscription,22.45,expense,Bills
+2025-02-10,Uber Ride Share,32.89,expense,Travel
+2025-02-11,Delta Airlines Ticket flight,176.67,expense,Travel
+2025-02-13,Verizon Monthly Wireless Bill,103.15,expense,Bills
+2025-02-14,City Water & Sewerage Bill,31.82,expense,Bills
+2025-02-15,Walmart Grocery Store,99.97,expense,Food
+2025-02-17,Walgreens Drugstore medicine,51.65,expense,Medical
+2025-02-18,Comcast Xfinity Internet Bill,62.32,expense,Bills
+2025-02-20,Best Buy Electronics Store,392.14,expense,Shopping
+2025-02-21,Local Charity Donation,47.02,expense,Others
+2025-02-22,Chevron Gas Station,30.06,expense,Travel
+2025-02-23,Blue Shield Health Insurance Co-pay,33.12,expense,Medical
+2025-02-25,Post Office Mail Shipping,8.44,expense,Others
+2025-02-26,Coursera Data Science Certification,41.02,expense,Education
+2025-02-27,Netflix Streaming Subscription,11.3,expense,Bills
+2025-03-01,Best Buy Electronics Store,133.37,expense,Shopping
+2025-03-01,Rent Payment Apartment,1200.0,expense,Bills
+2025-03-03,Nike Sneakers Purchase,76.98,expense,Shopping
+2025-03-03,Comcast Xfinity Internet Bill,92.35,expense,Bills
+2025-03-04,UberEats Restaurant Delivery,60.28,expense,Food
+2025-03-04,Shell Gasoline Fill-up,25.98,expense,Travel
+2025-03-06,Dominos Pizza delivery,15.15,expense,Food
+2025-03-07,Udemy Python Programming Course,11.37,expense,Education
+2025-03-09,Shell Gasoline Fill-up,47.09,expense,Travel
+2025-03-10,Walgreens Drugstore medicine,56.54,expense,Medical
+2025-03-11,Udemy Python Programming Course,24.0,expense,Education
+2025-03-13,Duolingo Language App Premium,8.53,expense,Education
+2025-03-14,College Bookstore Textbooks,40.74,expense,Education
+2025-03-15,College Bookstore Textbooks,93.19,expense,Education
+2025-03-16,H&M Summer Collection Apparels,31.52,expense,Shopping
+2025-03-17,Amazon Online Shopping,112.49,expense,Shopping
+2025-03-18,Corporate Monthly Salary Paycheck,2614.95,income,Salary
+2025-03-18,Coursera Data Science Certification,39.36,expense,Education
+2025-03-19,Metropolitan Power Grid Electric Bill,179.29,expense,Bills
+2025-03-20,General Hospital Doctor Consultation,174.99,expense,Medical
+2025-03-22,Hilton Hotels Reservation,215.71,expense,Travel
+2025-03-22,Amtrak Train Transit,82.55,expense,Travel
+2025-03-23,Best Buy Electronics Store,226.5,expense,Shopping
+2025-03-23,Nike Sneakers Purchase,151.85,expense,Shopping
+2025-03-24,H&M Summer Collection Apparels,36.28,expense,Shopping
+2025-03-25,Investment Dividend Payment Deposit,177.62,income,Dividend
+2025-03-26,Disneyland Theme Park Ticket,116.28,expense,Entertainment
+2025-03-28,Delta Airlines Ticket flight,432.23,expense,Travel
+2025-03-29,AMC Movie Theatre Tickets,22.57,expense,Entertainment
+2025-03-30,Subway Sandwiches Store,8.65,expense,Food
+2025-03-31,Local Charity Donation,44.5,expense,Others
+2025-04-02,Zara Clothing Apparel,131.26,expense,Shopping
+2025-04-02,Subway Sandwiches Store,14.32,expense,Food
+2025-04-03,Metropolitan Power Grid Electric Bill,123.75,expense,Bills
+2025-04-03,Whole Foods Grocery Delivery,72.14,expense,Food
+2025-04-04,Xbox Live Game Store Purchase,26.55,expense,Entertainment
+2025-04-04,Xbox Live Game Store Purchase,40.26,expense,Entertainment
+2025-04-04,Duolingo Language App Premium,12.82,expense,Education
+2025-04-05,Xbox Live Game Store Purchase,40.26,expense,Entertainment
+2025-04-06,Dental Care Clinic Orthodontics,91.93,expense,Medical
+2025-04-08,Bowlero Bowling Center Lanes,28.66,expense,Entertainment
+2025-04-09,Walgreens Drugstore medicine,47.24,expense,Medical
+2025-04-10,McDonald's Fast Food,8.05,expense,Food
+2025-04-11,Freelance Software Project Invoice,642.25,income,Freelance
+2025-04-11,CVS Pharmacy prescription,45.13,expense,Medical
+2025-04-12,CVS Pharmacy prescription,57.42,expense,Medical
+2025-04-13,Dental Care Clinic Orthodontics,108.42,expense,Medical
+2025-04-14,General Hospital Doctor Consultation,167.37,expense,Medical
+2025-04-15,Verizon Monthly Wireless Bill,97.32,expense,Bills
+2025-04-16,Verizon Monthly Wireless Bill,63.89,expense,Bills
+2025-04-17,Target Retail Store,87.28,expense,Shopping
+2025-04-18,Post Office Mail Shipping,26.02,expense,Others
+2025-04-19,Walgreens Drugstore medicine,36.12,expense,Medical
+2025-04-19,Local Charity Donation,45.26,expense,Others
+2025-04-20,Starbucks Coffee Shop,4.89,expense,Food
+2025-04-20,Dominos Pizza delivery,30.5,expense,Food
+2025-04-20,City Water & Sewerage Bill,41.58,expense,Bills
+2025-04-20,CVS Pharmacy prescription,14.77,expense,Medical
+2025-04-21,Comcast Xfinity Internet Bill,105.71,expense,Bills
+2025-04-21,General Hospital Doctor Consultation,72.1,expense,Medical
+2025-04-21,City Water & Sewerage Bill,47.02,expense,Bills
+2025-04-21,AMC Movie Theatre Tickets,17.74,expense,Entertainment
+2025-04-21,Disneyland Theme Park Ticket,198.35,expense,Entertainment
+2025-04-21,Coursera Data Science Certification,42.13,expense,Education
+2025-04-21,Verizon Monthly Wireless Bill,104.74,expense,Bills
+2025-04-22,Xbox Live Game Store Purchase,51.42,expense,Entertainment
+2025-04-23,Corporate Monthly Salary Paycheck,3126.9,income,Salary
+2025-04-24,Delta Airlines Ticket flight,384.73,expense,Travel
+2025-04-25,CVS Pharmacy prescription,50.42,expense,Medical
+2025-04-25,UberEats Restaurant Delivery,37.12,expense,Food
+2025-04-26,Amtrak Train Transit,54.43,expense,Travel
+2025-04-28,General Hospital Doctor Consultation,84.32,expense,Medical
+2025-04-29,College Bookstore Textbooks,64.44,expense,Education
+2025-04-30,AMC Movie Theatre Tickets,25.87,expense,Entertainment
+2025-05-01,Starbucks Coffee Shop,11.75,expense,Food
+2025-05-02,Metropolitan Power Grid Electric Bill,84.34,expense,Bills
+2025-05-03,Hilton Hotels Reservation,358.28,expense,Travel
+2025-05-04,Amazon Online Shopping,198.51,expense,Shopping
+2025-05-06,Disneyland Theme Park Ticket,185.74,expense,Entertainment
+2025-05-07,UberEats Restaurant Delivery,28.83,expense,Food
+2025-05-07,Uber Ride Share,17.96,expense,Travel
+2025-05-09,UberEats Restaurant Delivery,64.74,expense,Food
+2025-05-10,Amazon Online Shopping,40.4,expense,Shopping
+2025-05-11,Subway Sandwiches Store,14.83,expense,Food
+2025-05-12,UberEats Restaurant Delivery,60.22,expense,Food
+2025-05-12,Local Charity Donation,96.58,expense,Others
+2025-05-12,Comcast Xfinity Internet Bill,100.3,expense,Bills
+2025-05-12,Freelance Software Project Invoice,380.66,income,Freelance
+2025-05-13,College Bookstore Textbooks,91.44,expense,Education
+2025-05-14,Starbucks Coffee Shop,6.17,expense,Food
+2025-05-15,Post Office Mail Shipping,25.91,expense,Others
+2025-05-15,Dental Care Clinic Orthodontics,237.58,expense,Medical
+2025-05-16,Subway Sandwiches Store,14.96,expense,Food
+2025-05-17,Xbox Live Game Store Purchase,47.86,expense,Entertainment
+2025-05-18,AMC Movie Theatre Tickets,37.54,expense,Entertainment
+2025-05-18,Netflix Streaming Subscription,15.69,expense,Bills
+2025-05-19,Netflix Streaming Subscription,13.88,expense,Bills
+2025-05-20,Walmart Grocery Store,98.13,expense,Food
+2025-05-21,Verizon Monthly Wireless Bill,77.94,expense,Bills
+2025-05-22,UberEats Restaurant Delivery,44.33,expense,Food
+2025-05-22,Dental Care Clinic Orthodontics,80.05,expense,Medical
+2025-05-24,Disneyland Theme Park Ticket,175.83,expense,Entertainment
+2025-05-25,Best Buy Electronics Store,330.9,expense,Shopping
+2025-05-26,Zara Clothing Apparel,48.83,expense,Shopping
+2025-05-27,Walgreens Drugstore medicine,19.76,expense,Medical
+2025-05-27,AMC Movie Theatre Tickets,32.55,expense,Entertainment
+2025-05-28,Zara Clothing Apparel,49.8,expense,Shopping
+2025-05-28,Shell Gasoline Fill-up,56.24,expense,Travel
+2025-05-28,Starbucks Coffee Shop,6.06,expense,Food
+2025-05-28,Ticketmaster Concert Live Music,162.76,expense,Entertainment
+2025-05-29,Duolingo Language App Premium,11.59,expense,Education
+2025-05-30,Subway Sandwiches Store,11.39,expense,Food
+2025-05-31,Rent Payment Apartment,1200.0,expense,Bills
+2025-06-01,City Water & Sewerage Bill,33.78,expense,Bills
+2025-06-01,Shell Gasoline Fill-up,55.71,expense,Travel
+2025-06-03,Verizon Monthly Wireless Bill,65.27,expense,Bills
+2025-06-03,Corporate Monthly Salary Paycheck,2825.84,income,Salary
+2025-06-05,H&M Summer Collection Apparels,68.4,expense,Shopping
+2025-06-06,Xbox Live Game Store Purchase,49.47,expense,Entertainment
+2025-06-07,Freelance Software Project Invoice,863.05,income,Freelance
+2025-06-09,Duolingo Language App Premium,13.94,expense,Education
+2025-06-09,Udemy Python Programming Course,25.48,expense,Education
+2025-06-11,AMC Movie Theatre Tickets,23.33,expense,Entertainment
+2025-06-12,Coursera Data Science Certification,39.01,expense,Education
+2025-06-13,Whole Foods Grocery Delivery,147.2,expense,Food
+2025-06-14,Coursera Data Science Certification,45.65,expense,Education
+2025-06-15,Metropolitan Power Grid Electric Bill,124.6,expense,Bills
+2025-06-16,City Water & Sewerage Bill,44.72,expense,Bills
+2025-06-16,Walgreens Drugstore medicine,70.86,expense,Medical
+2025-06-17,UNUSUAL Walmart Grocery Store (Anomaly),697.67,expense,Food
+2025-06-18,Coursera Data Science Certification,44.78,expense,Education
+2025-06-19,Verizon Monthly Wireless Bill,71.29,expense,Bills
+2025-06-20,Udemy Python Programming Course,11.89,expense,Education
+2025-06-21,Coursera Data Science Certification,47.35,expense,Education
+2025-06-22,Local Charity Donation,62.55,expense,Others
+2025-06-24,Best Buy Electronics Store,345.36,expense,Shopping
+2025-06-25,General Hospital Doctor Consultation,109.01,expense,Medical
+2025-06-26,General Hospital Doctor Consultation,54.79,expense,Medical
+2025-06-28,AMC Movie Theatre Tickets,25.5,expense,Entertainment
+2025-06-29,Uber Ride Share,43.52,expense,Travel
+2025-06-30,Whole Foods Grocery Delivery,79.66,expense,Food
+2025-07-01,Chevron Gas Station,35.31,expense,Travel
+2025-07-01,Metropolitan Power Grid Electric Bill,109.49,expense,Bills
+2025-07-03,H&M Summer Collection Apparels,43.8,expense,Shopping
+2025-07-04,Metropolitan Power Grid Electric Bill,176.33,expense,Bills
+2025-07-05,Chevron Gas Station,54.5,expense,Travel
+2025-07-06,Nike Sneakers Purchase,94.51,expense,Shopping
+2025-07-07,Subway Sandwiches Store,11.51,expense,Food
+2025-07-08,H&M Summer Collection Apparels,62.7,expense,Shopping
+2025-07-09,Zara Clothing Apparel,141.67,expense,Shopping
+2025-07-09,Coursera Data Science Certification,41.73,expense,Education
+2025-07-11,Chevron Gas Station,52.26,expense,Travel
+2025-07-12,Whole Foods Grocery Delivery,41.75,expense,Food
+2025-07-13,Amazon Online Shopping,108.1,expense,Shopping
+2025-07-14,McDonald's Fast Food,24.0,expense,Food
+2025-07-15,Delta Airlines Ticket flight,494.71,expense,Travel
+2025-07-16,Hilton Hotels Reservation,374.89,expense,Travel
+2025-07-16,General Hospital Doctor Consultation,156.37,expense,Medical
+2025-07-18,Dental Care Clinic Orthodontics,197.01,expense,Medical
+2025-07-19,Chevron Gas Station,30.54,expense,Travel
+2025-07-20,Walgreens Drugstore medicine,58.07,expense,Medical
+2025-07-21,Udemy Python Programming Course,28.28,expense,Education
+2025-07-22,Zara Clothing Apparel,129.99,expense,Shopping
+2025-07-24,CVS Pharmacy prescription,14.48,expense,Medical
+2025-07-25,Comcast Xfinity Internet Bill,69.57,expense,Bills
+2025-07-26,Dental Care Clinic Orthodontics,260.95,expense,Medical
+2025-07-28,Corporate Monthly Salary Paycheck,2714.14,income,Salary
+2025-07-29,Coursera Data Science Certification,40.66,expense,Education
+2025-07-30,Nike Sneakers Purchase,55.75,expense,Shopping
+2025-07-31,Uber Ride Share,28.2,expense,Travel
+2025-07-31,Starbucks Coffee Shop,5.13,expense,Food
+2025-08-01,AMC Movie Theatre Tickets,39.86,expense,Entertainment
+2025-08-02,Netflix Streaming Subscription,20.65,expense,Bills
+2025-08-04,Hilton Hotels Reservation,179.13,expense,Travel
+2025-08-04,Whole Foods Grocery Delivery,148.23,expense,Food
+2025-08-05,Bowlero Bowling Center Lanes,37.61,expense,Entertainment
+2025-08-06,Delta Airlines Ticket flight,194.93,expense,Travel
+2025-08-07,UberEats Restaurant Delivery,50.96,expense,Food
+2025-08-09,Coursera Data Science Certification,45.79,expense,Education
+2025-08-11,Udemy Python Programming Course,15.21,expense,Education
+2025-08-13,Walmart Grocery Store,113.34,expense,Food
+2025-08-14,Duolingo Language App Premium,10.92,expense,Education
+2025-08-15,Post Office Mail Shipping,18.88,expense,Others
+2025-08-15,Starbucks Coffee Shop,9.02,expense,Food
+2025-08-15,Disneyland Theme Park Ticket,142.34,expense,Entertainment
+2025-08-16,Best Buy Electronics Store,355.29,expense,Shopping
+2025-08-17,Post Office Mail Shipping,11.29,expense,Others
+2025-08-19,Xbox Live Game Store Purchase,19.55,expense,Entertainment
+2025-08-21,UberEats Restaurant Delivery,25.9,expense,Food
+2025-08-22,UberEats Restaurant Delivery,53.83,expense,Food
+2025-08-22,Amazon Online Shopping,57.84,expense,Shopping
+2025-08-24,Netflix Streaming Subscription,14.75,expense,Bills
+2025-08-25,Nike Sneakers Purchase,133.16,expense,Shopping
+2025-08-27,Netflix Streaming Subscription,14.28,expense,Bills
+2025-08-28,Disneyland Theme Park Ticket,148.25,expense,Entertainment
+2025-08-29,Udemy Python Programming Course,19.46,expense,Education
+2025-08-29,Coursera Data Science Certification,45.54,expense,Education
+2025-08-30,City Water & Sewerage Bill,54.01,expense,Bills
+2025-08-31,Dominos Pizza delivery,17.55,expense,Food
+2025-09-01,Local Charity Donation,82.87,expense,Others
+2025-09-02,Post Office Mail Shipping,7.06,expense,Others
+2025-09-02,Post Office Mail Shipping,10.88,expense,Others
+2025-09-04,Local Charity Donation,93.09,expense,Others
+2025-09-04,City Water & Sewerage Bill,34.59,expense,Bills
+2025-09-05,Shell Gasoline Fill-up,45.34,expense,Travel
+2025-09-06,Delta Airlines Ticket flight,236.52,expense,Travel
+2025-09-07,General Hospital Doctor Consultation,171.35,expense,Medical
+2025-09-08,Duolingo Language App Premium,9.69,expense,Education
+2025-09-09,Bowlero Bowling Center Lanes,34.39,expense,Entertainment
+2025-09-10,Freelance Software Project Invoice,699.83,income,Freelance
+2025-09-11,Starbucks Coffee Shop,14.77,expense,Food
+2025-09-12,Local Charity Donation,61.24,expense,Others
+2025-09-13,Disneyland Theme Park Ticket,129.15,expense,Entertainment
+2025-09-14,Walmart Grocery Store,101.56,expense,Food
+2025-09-16,Netflix Streaming Subscription,22.77,expense,Bills
+2025-09-18,Xbox Live Game Store Purchase,52.42,expense,Entertainment
+2025-09-19,Corporate Monthly Salary Paycheck,2911.7,income,Salary
+2025-09-20,General Hospital Doctor Consultation,171.13,expense,Medical
+2025-09-21,Coursera Data Science Certification,46.07,expense,Education
+2025-09-22,Bowlero Bowling Center Lanes,22.34,expense,Entertainment
+2025-09-24,Starbucks Coffee Shop,13.84,expense,Food
+2025-09-25,Shell Gasoline Fill-up,37.03,expense,Travel
+2025-09-27,Nike Sneakers Purchase,139.12,expense,Shopping
+2025-09-28,Dental Care Clinic Orthodontics,136.42,expense,Medical
+2025-09-29,Comcast Xfinity Internet Bill,97.62,expense,Bills
+2025-09-30,Blue Shield Health Insurance Co-pay,41.53,expense,Medical
+2025-10-01,UberEats Restaurant Delivery,53.81,expense,Food
+2025-10-03,Duolingo Language App Premium,11.4,expense,Education
+2025-10-05,College Bookstore Textbooks,231.78,expense,Education
+2025-10-05,Dominos Pizza delivery,31.24,expense,Food
+2025-10-06,Target Retail Store,23.34,expense,Shopping
+2025-10-07,Nike Sneakers Purchase,101.2,expense,Shopping
+2025-10-08,H&M Summer Collection Apparels,21.22,expense,Shopping
+2025-10-08,College Bookstore Textbooks,216.73,expense,Education
+2025-10-09,Walmart Grocery Store,106.85,expense,Food
+2025-10-10,State DMV Vehicle Registration,92.69,expense,Others
+2025-10-10,Investment Dividend Payment Deposit,156.17,income,Dividend
+2025-10-11,Zara Clothing Apparel,38.42,expense,Shopping
+2025-10-13,Walgreens Drugstore medicine,63.51,expense,Medical
+2025-10-15,State DMV Vehicle Registration,72.3,expense,Others
+2025-10-16,Freelance Software Project Invoice,1161.49,income,Freelance
+2025-10-17,Best Buy Electronics Store,205.13,expense,Shopping
+2025-10-19,CVS Pharmacy prescription,39.7,expense,Medical
+2025-10-19,Walmart Grocery Store,41.28,expense,Food
+2025-10-20,Metropolitan Power Grid Electric Bill,130.18,expense,Bills
+2025-10-20,City Water & Sewerage Bill,35.39,expense,Bills
+2025-10-22,Udemy Python Programming Course,17.04,expense,Education
+2025-10-23,Blue Shield Health Insurance Co-pay,41.3,expense,Medical
+2025-10-25,Delta Airlines Ticket flight,331.17,expense,Travel
+2025-10-27,Amtrak Train Transit,41.67,expense,Travel
+2025-10-29,Hilton Hotels Reservation,202.97,expense,Travel
+2025-10-29,Dominos Pizza delivery,33.33,expense,Food
+2025-10-31,Local Charity Donation,30.67,expense,Others
+2025-10-31,Target Retail Store,98.88,expense,Shopping
+2025-11-01,Spotify Music Premium,13.2,expense,Bills
+2025-11-03,Investment Dividend Payment Deposit,58.14,income,Dividend
+2025-11-04,City Water & Sewerage Bill,67.99,expense,Bills
+2025-11-05,City Water & Sewerage Bill,57.72,expense,Bills
+2025-11-05,Shell Gasoline Fill-up,39.8,expense,Travel
+2025-11-06,General Hospital Doctor Consultation,116.69,expense,Medical
+2025-11-06,Hilton Hotels Reservation,224.78,expense,Travel
+2025-11-07,Xbox Live Game Store Purchase,18.46,expense,Entertainment
+2025-11-08,Delta Airlines Ticket flight,339.1,expense,Travel
+2025-11-09,Delta Airlines Ticket flight,193.86,expense,Travel
+2025-11-11,Subway Sandwiches Store,15.56,expense,Food
+2025-11-12,Shell Gasoline Fill-up,52.75,expense,Travel
+2025-11-13,Corporate Monthly Salary Paycheck,4364.98,income,Salary
+2025-11-15,State DMV Vehicle Registration,111.92,expense,Others
+2025-11-17,Xbox Live Game Store Purchase,40.74,expense,Entertainment
+2025-11-18,Best Buy Electronics Store,376.62,expense,Shopping
+2025-11-19,Target Retail Store,35.89,expense,Shopping
+2025-11-20,Shell Gasoline Fill-up,30.2,expense,Travel
+2025-11-21,Comcast Xfinity Internet Bill,75.11,expense,Bills
+2025-11-23,AMC Movie Theatre Tickets,23.74,expense,Entertainment
+2025-11-23,General Hospital Doctor Consultation,174.05,expense,Medical
+2025-11-24,CVS Pharmacy prescription,30.0,expense,Medical
+2025-11-25,Local Charity Donation,62.08,expense,Others
+2025-11-26,Hilton Hotels Reservation,185.13,expense,Travel
+2025-11-28,Subway Sandwiches Store,14.69,expense,Food
+2025-11-29,General Hospital Doctor Consultation,174.22,expense,Medical
+2025-11-30,College Bookstore Textbooks,218.85,expense,Education
+2025-12-01,Starbucks Coffee Shop,6.97,expense,Food
+2025-12-03,Amazon Online Shopping,186.02,expense,Shopping
+2025-12-04,Metropolitan Power Grid Electric Bill,96.15,expense,Bills
+2025-12-05,Disneyland Theme Park Ticket,200.73,expense,Entertainment
+2025-12-06,Dominos Pizza delivery,35.0,expense,Food
+2025-12-07,Dominos Pizza delivery,31.99,expense,Food
+2025-12-08,Verizon Monthly Wireless Bill,91.66,expense,Bills
+2025-12-09,Hilton Hotels Reservation,318.79,expense,Travel
+2025-12-10,Rent Payment Apartment,1200.0,expense,Bills
+2025-12-11,Walgreens Drugstore medicine,46.78,expense,Medical
+2025-12-12,Dental Care Clinic Orthodontics,266.38,expense,Medical
+2025-12-13,Xbox Live Game Store Purchase,32.98,expense,Entertainment
+2025-12-14,Local Charity Donation,23.13,expense,Others
+2025-12-14,Walgreens Drugstore medicine,32.99,expense,Medical
+2025-12-15,Rent Payment Apartment,1200.0,expense,Bills
+2025-12-16,Shell Gasoline Fill-up,39.31,expense,Travel
+2025-12-18,Metropolitan Power Grid Electric Bill,93.11,expense,Bills
+2025-12-20,Coursera Data Science Certification,45.35,expense,Education
+2025-12-21,Walgreens Drugstore medicine,43.74,expense,Medical
+2025-12-21,Nike Sneakers Purchase,81.53,expense,Shopping
+2025-12-22,Dental Care Clinic Orthodontics,161.96,expense,Medical
+2025-12-22,Walgreens Drugstore medicine,15.23,expense,Medical
+2025-12-24,Delta Airlines Ticket flight,182.7,expense,Travel
+2025-12-25,Dental Care Clinic Orthodontics,193.4,expense,Medical
+2025-12-25,Bowlero Bowling Center Lanes,38.14,expense,Entertainment
+2025-12-25,Delta Airlines Ticket flight,157.03,expense,Travel
+2025-12-27,Metropolitan Power Grid Electric Bill,145.33,expense,Bills
+2025-12-27,Whole Foods Grocery Delivery,114.08,expense,Food
+2025-12-27,Amazon Online Shopping,196.1,expense,Shopping
+2025-12-28,AMC Movie Theatre Tickets,34.37,expense,Entertainment
+2025-12-29,AMC Movie Theatre Tickets,36.96,expense,Entertainment
+2025-12-31,Duolingo Language App Premium,11.04,expense,Education
+2026-01-01,State DMV Vehicle Registration,84.02,expense,Others
+2026-01-02,Dominos Pizza delivery,40.2,expense,Food
+2026-01-03,McDonald's Fast Food,14.07,expense,Food
+2026-01-04,Corporate Monthly Salary Paycheck,2594.31,income,Salary
+2026-01-06,Starbucks Coffee Shop,8.08,expense,Food
+2026-01-07,Netflix Streaming Subscription,18.19,expense,Bills
+2026-01-08,Spotify Music Premium,14.04,expense,Bills
+2026-01-09,Netflix Streaming Subscription,21.13,expense,Bills
+2026-01-10,Investment Dividend Payment Deposit,230.52,income,Dividend
+2026-01-10,Hilton Hotels Reservation,242.24,expense,Travel
+2026-01-11,Uber Ride Share,35.21,expense,Travel
+2026-01-12,Comcast Xfinity Internet Bill,106.84,expense,Bills
+2026-01-13,Hilton Hotels Reservation,392.86,expense,Travel
+2026-01-15,Whole Foods Grocery Delivery,44.13,expense,Food
+2026-01-15,Comcast Xfinity Internet Bill,76.48,expense,Bills
+2026-01-15,Spotify Music Premium,12.63,expense,Bills
+2026-01-16,Spotify Music Premium,12.88,expense,Bills
+2026-01-17,Post Office Mail Shipping,12.35,expense,Others
+2026-01-18,CVS Pharmacy prescription,38.8,expense,Medical
+2026-01-18,Bowlero Bowling Center Lanes,31.94,expense,Entertainment
+2026-01-19,Duolingo Language App Premium,12.29,expense,Education
+2026-01-19,Metropolitan Power Grid Electric Bill,151.26,expense,Bills
+2026-01-20,Blue Shield Health Insurance Co-pay,48.03,expense,Medical
+2026-01-21,Spotify Music Premium,11.95,expense,Bills
+2026-01-22,Shell Gasoline Fill-up,29.67,expense,Travel
+2026-01-22,Dental Care Clinic Orthodontics,147.32,expense,Medical
+2026-01-23,Starbucks Coffee Shop,11.33,expense,Food
+2026-01-24,McDonald's Fast Food,15.18,expense,Food
+2026-01-25,McDonald's Fast Food,23.47,expense,Food
+2026-01-25,Hilton Hotels Reservation,397.67,expense,Travel
+2026-01-26,Duolingo Language App Premium,7.98,expense,Education
+2026-01-26,City Water & Sewerage Bill,66.1,expense,Bills
+2026-01-27,Bowlero Bowling Center Lanes,25.63,expense,Entertainment
+2026-01-28,Metropolitan Power Grid Electric Bill,109.09,expense,Bills
+2026-01-28,Xbox Live Game Store Purchase,48.57,expense,Entertainment
+2026-01-29,General Hospital Doctor Consultation,106.51,expense,Medical
+2026-01-30,Dental Care Clinic Orthodontics,151.49,expense,Medical
+2026-01-31,Disneyland Theme Park Ticket,141.62,expense,Entertainment
+2026-02-01,Rent Payment Apartment,1200.0,expense,Bills
+2026-02-02,Starbucks Coffee Shop,6.72,expense,Food
+2026-02-04,Uber Ride Share,16.98,expense,Travel
+2026-02-04,CVS Pharmacy prescription,31.93,expense,Medical
+2026-02-05,State DMV Vehicle Registration,66.22,expense,Others
+2026-02-06,Comcast Xfinity Internet Bill,77.41,expense,Bills
+2026-02-07,Zara Clothing Apparel,65.78,expense,Shopping
+2026-02-09,Investment Dividend Payment Deposit,74.42,income,Dividend
+2026-02-10,Coursera Data Science Certification,42.2,expense,Education
+2026-02-11,Shell Gasoline Fill-up,37.54,expense,Travel
+2026-02-12,General Hospital Doctor Consultation,160.39,expense,Medical
+2026-02-13,Chevron Gas Station,51.45,expense,Travel
+2026-02-15,AMC Movie Theatre Tickets,24.94,expense,Entertainment
+2026-02-15,Chevron Gas Station,49.38,expense,Travel
+2026-02-16,UberEats Restaurant Delivery,64.19,expense,Food
+2026-02-17,Corporate Monthly Salary Paycheck,3551.54,income,Salary
+2026-02-17,Dental Care Clinic Orthodontics,97.91,expense,Medical
+2026-02-18,Best Buy Electronics Store,384.44,expense,Shopping
+2026-02-19,H&M Summer Collection Apparels,50.46,expense,Shopping
+2026-02-19,Verizon Monthly Wireless Bill,63.32,expense,Bills
+2026-02-20,Walgreens Drugstore medicine,34.84,expense,Medical
+2026-02-22,Dominos Pizza delivery,41.36,expense,Food
+2026-02-23,State DMV Vehicle Registration,107.21,expense,Others
+2026-02-23,Target Retail Store,44.21,expense,Shopping
+2026-02-25,Dominos Pizza delivery,44.88,expense,Food
+2026-02-25,Ticketmaster Concert Live Music,160.42,expense,Entertainment
+2026-02-26,CVS Pharmacy prescription,31.96,expense,Medical
+2026-02-26,Netflix Streaming Subscription,22.39,expense,Bills
+2026-02-26,Zara Clothing Apparel,58.34,expense,Shopping
+2026-02-28,CVS Pharmacy prescription,27.6,expense,Medical
+2026-03-01,Best Buy Electronics Store,239.3,expense,Shopping
+2026-03-02,Verizon Monthly Wireless Bill,97.1,expense,Bills
+2026-03-03,Uber Ride Share,13.04,expense,Travel
+2026-03-05,Duolingo Language App Premium,9.52,expense,Education
+2026-03-06,Dental Care Clinic Orthodontics,196.33,expense,Medical
+2026-03-07,Duolingo Language App Premium,12.36,expense,Education
+2026-03-09,Netflix Streaming Subscription,11.76,expense,Bills
+2026-03-10,Comcast Xfinity Internet Bill,86.72,expense,Bills
+2026-03-10,Walmart Grocery Store,108.3,expense,Food
+2026-03-11,Chevron Gas Station,32.65,expense,Travel
+2026-03-13,Shell Gasoline Fill-up,49.07,expense,Travel
+2026-03-15,General Hospital Doctor Consultation,185.33,expense,Medical
+2026-03-16,Best Buy Electronics Store,142.05,expense,Shopping
+2026-03-18,Xbox Live Game Store Purchase,27.19,expense,Entertainment
+2026-03-19,Freelance Software Project Invoice,454.55,income,Freelance
+2026-03-20,Target Retail Store,43.82,expense,Shopping
+2026-03-21,AMC Movie Theatre Tickets,27.99,expense,Entertainment
+2026-03-23,Walmart Grocery Store,78.08,expense,Food
+2026-03-24,McDonald's Fast Food,14.98,expense,Food
+2026-03-25,Disneyland Theme Park Ticket,198.88,expense,Entertainment
+2026-03-26,Freelance Software Project Invoice,622.54,income,Freelance
+2026-03-28,Ticketmaster Concert Live Music,98.67,expense,Entertainment
+2026-03-29,Starbucks Coffee Shop,10.63,expense,Food
+2026-03-30,Amtrak Train Transit,81.27,expense,Travel
+2026-04-01,College Bookstore Textbooks,167.92,expense,Education
+2026-04-02,Ticketmaster Concert Live Music,174.14,expense,Entertainment
+2026-04-03,Verizon Monthly Wireless Bill,84.86,expense,Bills
+2026-04-05,Dental Care Clinic Orthodontics,179.1,expense,Medical
+2026-04-05,Starbucks Coffee Shop,5.49,expense,Food
+2026-04-06,Target Retail Store,42.28,expense,Shopping
+2026-04-07,Shell Gasoline Fill-up,40.83,expense,Travel
+2026-04-08,Xbox Live Game Store Purchase,50.99,expense,Entertainment
+2026-04-09,Disneyland Theme Park Ticket,171.58,expense,Entertainment
+2026-04-10,Whole Foods Grocery Delivery,100.53,expense,Food
+2026-04-11,Shell Gasoline Fill-up,56.59,expense,Travel
+2026-04-11,Corporate Monthly Salary Paycheck,2536.07,income,Salary
+2026-04-12,Shell Gasoline Fill-up,55.01,expense,Travel
+2026-04-12,Netflix Streaming Subscription,17.27,expense,Bills
+2026-04-13,Nike Sneakers Purchase,151.08,expense,Shopping
+2026-04-15,General Hospital Doctor Consultation,135.3,expense,Medical
+2026-04-16,Post Office Mail Shipping,14.98,expense,Others
+2026-04-17,Walgreens Drugstore medicine,49.02,expense,Medical
+2026-04-18,Local Charity Donation,48.72,expense,Others
+2026-04-19,Investment Dividend Payment Deposit,244.49,income,Dividend
+2026-04-20,Shell Gasoline Fill-up,31.49,expense,Travel
+2026-04-21,Uber Ride Share,36.13,expense,Travel
+2026-04-23,College Bookstore Textbooks,97.88,expense,Education
+2026-04-23,H&M Summer Collection Apparels,63.51,expense,Shopping
+2026-04-24,UNUSUAL Walgreens Drugstore medicine (Anomaly),460.26,expense,Medical
+2026-04-26,City Water & Sewerage Bill,54.61,expense,Bills
+2026-04-28,City Water & Sewerage Bill,43.45,expense,Bills
+2026-04-29,Walmart Grocery Store,82.09,expense,Food
+2026-05-01,Nike Sneakers Purchase,90.6,expense,Shopping
+2026-05-02,Local Charity Donation,83.18,expense,Others
+2026-05-04,Whole Foods Grocery Delivery,80.84,expense,Food
+2026-05-05,City Water & Sewerage Bill,68.58,expense,Bills
+2026-05-05,Xbox Live Game Store Purchase,53.59,expense,Entertainment
+2026-05-06,Whole Foods Grocery Delivery,143.82,expense,Food
+2026-05-06,Walmart Grocery Store,92.6,expense,Food
+2026-05-07,Comcast Xfinity Internet Bill,98.82,expense,Bills
+2026-05-07,Walgreens Drugstore medicine,29.67,expense,Medical
+2026-05-08,Metropolitan Power Grid Electric Bill,117.67,expense,Bills
+2026-05-09,College Bookstore Textbooks,154.33,expense,Education
+2026-05-11,Investment Dividend Payment Deposit,206.42,income,Dividend
+2026-05-12,Duolingo Language App Premium,8.16,expense,Education
+2026-05-13,Bowlero Bowling Center Lanes,38.26,expense,Entertainment
+2026-05-13,Disneyland Theme Park Ticket,235.02,expense,Entertainment
+2026-05-14,Freelance Software Project Invoice,329.66,income,Freelance
+2026-05-16,Bowlero Bowling Center Lanes,35.44,expense,Entertainment
+2026-05-16,City Water & Sewerage Bill,67.23,expense,Bills
+2026-05-17,Walmart Grocery Store,63.41,expense,Food
+2026-05-18,Best Buy Electronics Store,208.07,expense,Shopping
+2026-05-18,H&M Summer Collection Apparels,67.79,expense,Shopping
+2026-05-19,Rent Payment Apartment,1200.0,expense,Bills
+2026-05-20,Starbucks Coffee Shop,11.74,expense,Food
+2026-05-22,Hilton Hotels Reservation,138.67,expense,Travel
+2026-05-23,Chevron Gas Station,24.61,expense,Travel
+2026-05-24,Freelance Software Project Invoice,470.73,income,Freelance
+2026-05-25,Uber Ride Share,42.34,expense,Travel
+2026-05-26,Coursera Data Science Certification,47.61,expense,Education
+2026-05-26,Disneyland Theme Park Ticket,107.86,expense,Entertainment
+2026-05-27,General Hospital Doctor Consultation,116.66,expense,Medical
+2026-05-29,Local Charity Donation,69.72,expense,Others
+2026-05-30,Freelance Software Project Invoice,461.53,income,Freelance
+2026-06-01,Target Retail Store,69.66,expense,Shopping
+2026-06-02,Corporate Monthly Salary Paycheck,2638.6,income,Salary
+2026-06-02,UberEats Restaurant Delivery,36.83,expense,Food
+2026-06-03,Investment Dividend Payment Deposit,248.22,income,Dividend
+2026-06-04,Blue Shield Health Insurance Co-pay,30.78,expense,Medical
+2026-06-05,State DMV Vehicle Registration,98.3,expense,Others
+2026-06-05,H&M Summer Collection Apparels,89.92,expense,Shopping
+2026-06-07,Coursera Data Science Certification,47.75,expense,Education
+2026-06-07,Netflix Streaming Subscription,17.18,expense,Bills
+2026-06-08,Local Charity Donation,68.24,expense,Others
+2026-06-09,Zara Clothing Apparel,144.8,expense,Shopping
+2026-06-09,Zara Clothing Apparel,42.99,expense,Shopping
+2026-06-09,Coursera Data Science Certification,42.55,expense,Education
+2026-06-09,Netflix Streaming Subscription,21.39,expense,Bills
+2026-06-09,Duolingo Language App Premium,8.07,expense,Education
+2026-06-10,City Water & Sewerage Bill,69.97,expense,Bills
+2026-06-12,Investment Dividend Payment Deposit,99.47,income,Dividend
+2026-06-12,Verizon Monthly Wireless Bill,107.89,expense,Bills
+2026-06-13,AMC Movie Theatre Tickets,30.25,expense,Entertainment
+2026-06-14,Post Office Mail Shipping,23.87,expense,Others
+2026-06-15,Zara Clothing Apparel,114.98,expense,Shopping
+2026-06-16,Metropolitan Power Grid Electric Bill,156.11,expense,Bills
+2026-06-16,Nike Sneakers Purchase,174.37,expense,Shopping
+2026-06-17,Metropolitan Power Grid Electric Bill,158.18,expense,Bills
+2026-06-17,Subway Sandwiches Store,17.2,expense,Food
+2026-06-18,Disneyland Theme Park Ticket,172.88,expense,Entertainment
+2026-06-19,Comcast Xfinity Internet Bill,68.39,expense,Bills
+2026-06-21,Local Charity Donation,18.21,expense,Others
+2026-06-23,College Bookstore Textbooks,189.21,expense,Education
+2026-06-24,Local Charity Donation,31.25,expense,Others
+2026-06-25,Hilton Hotels Reservation,318.45,expense,Travel
+2026-06-27,Rent Payment Apartment,1200.0,expense,Bills
+2026-06-29,Chevron Gas Station,26.07,expense,Travel
+2026-06-30,Spotify Music Premium,12.7,expense,Bills
+2026-07-02,Xbox Live Game Store Purchase,31.95,expense,Entertainment
+2026-07-02,Starbucks Coffee Shop,9.42,expense,Food
+2026-07-04,Post Office Mail Shipping,21.56,expense,Others
+2026-07-05,Amtrak Train Transit,33.52,expense,Travel
+2026-07-06,Verizon Monthly Wireless Bill,60.53,expense,Bills
+2026-07-07,Amazon Online Shopping,46.86,expense,Shopping
+2026-07-08,Target Retail Store,82.53,expense,Shopping
+2026-07-09,Walgreens Drugstore medicine,31.64,expense,Medical
+2026-07-10,Delta Airlines Ticket flight,323.23,expense,Travel
+2026-07-10,Investment Dividend Payment Deposit,196.19,income,Dividend
+2026-07-11,Amtrak Train Transit,48.67,expense,Travel
+2026-07-12,State DMV Vehicle Registration,106.27,expense,Others
+2026-07-13,State DMV Vehicle Registration,104.22,expense,Others
+2026-07-13,Xbox Live Game Store Purchase,18.87,expense,Entertainment
+2026-07-13,Uber Ride Share,36.66,expense,Travel
+2026-07-15,Nike Sneakers Purchase,62.64,expense,Shopping
+2026-07-15,Best Buy Electronics Store,265.74,expense,Shopping
+2026-07-16,Corporate Monthly Salary Paycheck,3827.08,income,Salary
+2026-07-16,Metropolitan Power Grid Electric Bill,98.29,expense,Bills
+2026-07-16,Walgreens Drugstore medicine,26.17,expense,Medical
+2026-07-16,Comcast Xfinity Internet Bill,70.65,expense,Bills
+2026-07-16,Investment Dividend Payment Deposit,169.21,income,Dividend
+2026-07-16,Amazon Online Shopping,118.06,expense,Shopping
+2026-07-16,Dominos Pizza delivery,30.63,expense,Food
+2026-07-16,Delta Airlines Ticket flight,226.49,expense,Travel
+2026-07-16,College Bookstore Textbooks,233.14,expense,Education
+2026-07-16,General Hospital Doctor Consultation,135.33,expense,Medical
+2026-07-16,Whole Foods Grocery Delivery,61.42,expense,Food
+2026-07-16,Starbucks Coffee Shop,14.05,expense,Food
+2026-07-16,State DMV Vehicle Registration,100.07,expense,Others
+2026-07-16,Verizon Monthly Wireless Bill,63.89,expense,Bills
+2026-07-16,Nike Sneakers Purchase,168.19,expense,Shopping
+2026-07-16,State DMV Vehicle Registration,117.5,expense,Others
+2026-07-16,College Bookstore Textbooks,99.76,expense,Education
+2026-07-16,Local Charity Donation,11.2,expense,Others
+2026-07-16,Comcast Xfinity Internet Bill,87.51,expense,Bills
+2026-07-16,Walmart Grocery Store,101.0,expense,Food
+2026-07-16,Post Office Mail Shipping,28.08,expense,Others
+2026-07-16,Subway Sandwiches Store,10.74,expense,Food
+2026-07-16,Coursera Data Science Certification,46.36,expense,Education
+2026-07-16,Blue Shield Health Insurance Co-pay,41.98,expense,Medical
+2026-07-16,Target Retail Store,15.82,expense,Shopping
+2026-07-16,H&M Summer Collection Apparels,25.49,expense,Shopping
+2026-07-16,Uber Ride Share,44.43,expense,Travel
+2026-07-16,Xbox Live Game Store Purchase,20.25,expense,Entertainment
+2026-07-16,UberEats Restaurant Delivery,53.77,expense,Food
+2026-07-16,Hilton Hotels Reservation,203.06,expense,Travel
+2026-07-16,College Bookstore Textbooks,219.83,expense,Education
+2026-07-16,Target Retail Store,75.48,expense,Shopping
+2026-07-16,State DMV Vehicle Registration,95.76,expense,Others
+2026-07-16,Post Office Mail Shipping,5.59,expense,Others
+2026-07-16,UberEats Restaurant Delivery,35.37,expense,Food
+2026-07-16,Delta Airlines Ticket flight,154.08,expense,Travel
+2026-07-16,Spotify Music Premium,10.55,expense,Bills
+2026-07-16,CVS Pharmacy prescription,44.07,expense,Medical
+2026-07-16,Coursera Data Science Certification,43.86,expense,Education
+2026-07-16,Hilton Hotels Reservation,391.57,expense,Travel
+2026-07-16,Ticketmaster Concert Live Music,130.85,expense,Entertainment
+2026-07-16,Blue Shield Health Insurance Co-pay,48.57,expense,Medical
+2026-07-16,Investment Dividend Payment Deposit,119.77,income,Dividend
+2026-07-16,AMC Movie Theatre Tickets,39.24,expense,Entertainment
+2026-07-16,Hilton Hotels Reservation,231.83,expense,Travel
+2026-07-16,Freelance Software Project Invoice,835.57,income,Freelance
+2026-07-16,Whole Foods Grocery Delivery,62.07,expense,Food
+2026-07-16,Investment Dividend Payment Deposit,98.86,income,Dividend
+2026-07-16,Subway Sandwiches Store,17.78,expense,Food
+2026-07-16,Amazon Online Shopping,168.04,expense,Shopping
+2026-07-16,Corporate Monthly Salary Paycheck,2919.13,income,Salary
+2026-07-16,Udemy Python Programming Course,20.7,expense,Education
+2026-07-16,Local Charity Donation,72.92,expense,Others
+2026-07-16,Starbucks Coffee Shop,14.09,expense,Food
+2026-07-16,Bowlero Bowling Center Lanes,15.95,expense,Entertainment
+2026-07-16,Rent Payment Apartment,1200.0,expense,Bills
+2026-07-16,UNUSUAL Dental Care Clinic Orthodontics (Anomaly),973.43,expense,Medical
+2026-07-16,Best Buy Electronics Store,142.7,expense,Shopping
+2026-07-16,Target Retail Store,91.82,expense,Shopping
+2026-07-16,Whole Foods Grocery Delivery,49.56,expense,Food
+2026-07-16,McDonald's Fast Food,21.36,expense,Food
+2026-07-16,Dental Care Clinic Orthodontics,228.2,expense,Medical
+2026-07-16,Rent Payment Apartment,1200.0,expense,Bills
+2026-07-16,Local Charity Donation,18.42,expense,Others
+2026-07-16,Disneyland Theme Park Ticket,125.79,expense,Entertainment
+2026-07-16,H&M Summer Collection Apparels,79.84,expense,Shopping
+2026-07-16,State DMV Vehicle Registration,107.26,expense,Others
+2026-07-16,Netflix Streaming Subscription,14.78,expense,Bills
+2026-07-16,Nike Sneakers Purchase,164.05,expense,Shopping
+2026-07-16,Freelance Software Project Invoice,1105.43,income,Freelance
+2026-07-16,Hilton Hotels Reservation,267.4,expense,Travel
+2026-07-16,CVS Pharmacy prescription,44.25,expense,Medical
+2026-07-16,CVS Pharmacy prescription,54.65,expense,Medical
+2026-07-16,General Hospital Doctor Consultation,194.87,expense,Medical
+2026-07-16,UberEats Restaurant Delivery,49.91,expense,Food
+2026-07-16,Hilton Hotels Reservation,364.53,expense,Travel
+2026-07-16,Local Charity Donation,98.46,expense,Others
+2026-07-16,Uber Ride Share,21.32,expense,Travel
+2026-07-16,McDonald's Fast Food,18.8,expense,Food
+2026-07-16,Coursera Data Science Certification,40.64,expense,Education
+2026-07-16,Duolingo Language App Premium,9.53,expense,Education
+2026-07-16,Delta Airlines Ticket flight,315.57,expense,Travel
+2026-07-16,Disneyland Theme Park Ticket,203.21,expense,Entertainment
+2026-07-16,Spotify Music Premium,13.06,expense,Bills
+2026-07-16,Coursera Data Science Certification,46.27,expense,Education
+2026-07-16,Xbox Live Game Store Purchase,67.92,expense,Entertainment
+2026-07-16,CVS Pharmacy prescription,52.66,expense,Medical
+2026-07-16,Metropolitan Power Grid Electric Bill,165.29,expense,Bills
+2026-07-16,Comcast Xfinity Internet Bill,104.55,expense,Bills
+2026-07-16,Disneyland Theme Park Ticket,155.59,expense,Entertainment
+2026-07-16,Coursera Data Science Certification,45.32,expense,Education
+2026-07-16,Freelance Software Project Invoice,630.53,income,Freelance
+2026-07-16,Best Buy Electronics Store,279.01,expense,Shopping
+2026-07-16,Freelance Software Project Invoice,1186.07,income,Freelance
+2026-07-16,Netflix Streaming Subscription,14.5,expense,Bills
+2026-07-16,CVS Pharmacy prescription,57.94,expense,Medical
+2026-07-16,Disneyland Theme Park Ticket,143.41,expense,Entertainment
+2026-07-16,CVS Pharmacy prescription,26.49,expense,Medical
+2026-07-16,Starbucks Coffee Shop,6.72,expense,Food
+2026-07-16,Freelance Software Project Invoice,1199.19,income,Freelance
+2026-07-16,Corporate Monthly Salary Paycheck,3206.15,income,Salary
+2026-07-16,Xbox Live Game Store Purchase,18.36,expense,Entertainment
+2026-07-16,Target Retail Store,93.18,expense,Shopping
+2026-07-16,Duolingo Language App Premium,8.93,expense,Education
+2026-07-16,Duolingo Language App Premium,12.25,expense,Education
+2026-07-16,City Water & Sewerage Bill,34.84,expense,Bills
+2026-07-16,Walgreens Drugstore medicine,73.87,expense,Medical
+2026-07-16,Hilton Hotels Reservation,274.7,expense,Travel
+2026-07-16,Subway Sandwiches Store,17.81,expense,Food
+2026-07-16,Local Charity Donation,42.48,expense,Others
+2026-07-16,Shell Gasoline Fill-up,38.63,expense,Travel
+2026-07-16,Verizon Monthly Wireless Bill,100.26,expense,Bills
+2026-07-16,Ticketmaster Concert Live Music,153.05,expense,Entertainment
+2026-07-16,Metropolitan Power Grid Electric Bill,135.82,expense,Bills
+2026-07-16,College Bookstore Textbooks,205.43,expense,Education
+2026-07-16,CVS Pharmacy prescription,55.89,expense,Medical
+2026-07-16,Delta Airlines Ticket flight,163.95,expense,Travel
+2026-07-16,Netflix Streaming Subscription,14.42,expense,Bills
+2026-07-16,Metropolitan Power Grid Electric Bill,112.82,expense,Bills
+2026-07-16,H&M Summer Collection Apparels,49.87,expense,Shopping
+2026-07-16,Starbucks Coffee Shop,4.81,expense,Food
+2026-07-16,Amtrak Train Transit,62.17,expense,Travel
+2026-07-16,Xbox Live Game Store Purchase,43.34,expense,Entertainment
+2026-07-16,Bowlero Bowling Center Lanes,37.04,expense,Entertainment
+2026-07-16,Subway Sandwiches Store,9.24,expense,Food
+2026-07-16,Dental Care Clinic Orthodontics,143.53,expense,Medical
+2026-07-16,Verizon Monthly Wireless Bill,97.71,expense,Bills
+2026-07-16,Dominos Pizza delivery,21.01,expense,Food
+2026-07-16,Shell Gasoline Fill-up,36.22,expense,Travel
+2026-07-16,Zara Clothing Apparel,89.22,expense,Shopping
+2026-07-16,Amazon Online Shopping,60.75,expense,Shopping
+2026-07-16,Freelance Software Project Invoice,732.05,income,Freelance
+2026-07-16,Disneyland Theme Park Ticket,163.79,expense,Entertainment
+2026-07-16,Netflix Streaming Subscription,20.89,expense,Bills
+2026-07-16,Walmart Grocery Store,97.34,expense,Food
+2026-07-16,Investment Dividend Payment Deposit,153.68,income,Dividend
+2026-07-16,General Hospital Doctor Consultation,173.09,expense,Medical
+2026-07-16,Target Retail Store,80.54,expense,Shopping
+2026-07-16,Xbox Live Game Store Purchase,17.58,expense,Entertainment
+2026-07-16,Target Retail Store,92.83,expense,Shopping
+2026-07-16,Investment Dividend Payment Deposit,106.63,income,Dividend
+2026-07-16,Shell Gasoline Fill-up,49.97,expense,Travel
+2026-07-16,AMC Movie Theatre Tickets,15.13,expense,Entertainment
+2026-07-16,Blue Shield Health Insurance Co-pay,31.58,expense,Medical
+2026-07-16,H&M Summer Collection Apparels,52.53,expense,Shopping
+2026-07-16,Subway Sandwiches Store,17.33,expense,Food
+2026-07-16,Rent Payment Apartment,1200.0,expense,Bills
+2026-07-16,Spotify Music Premium,11.9,expense,Bills
+2026-07-16,City Water & Sewerage Bill,51.4,expense,Bills
+2026-07-16,Dental Care Clinic Orthodontics,184.33,expense,Medical
+2026-07-16,Corporate Monthly Salary Paycheck,2894.67,income,Salary
+2026-07-16,Uber Ride Share,37.31,expense,Travel
+2026-07-16,Post Office Mail Shipping,24.43,expense,Others
+2026-07-16,Comcast Xfinity Internet Bill,83.56,expense,Bills
+2026-07-16,Duolingo Language App Premium,8.87,expense,Education
+2026-07-16,Duolingo Language App Premium,12.36,expense,Education
+2026-07-16,Post Office Mail Shipping,26.98,expense,Others
+2026-07-16,Subway Sandwiches Store,16.67,expense,Food
+2026-07-16,Freelance Software Project Invoice,818.69,income,Freelance
+2026-07-16,Investment Dividend Payment Deposit,59.61,income,Dividend
+2026-07-16,Dominos Pizza delivery,37.88,expense,Food
+2026-07-16,Dominos Pizza delivery,44.29,expense,Food
+2026-07-16,Hilton Hotels Reservation,330.11,expense,Travel
+2026-07-16,Local Charity Donation,51.93,expense,Others
+2026-07-16,Dominos Pizza delivery,36.22,expense,Food
+2026-07-16,Local Charity Donation,84.27,expense,Others
+2026-07-16,Shell Gasoline Fill-up,43.82,expense,Travel
+2026-07-16,Comcast Xfinity Internet Bill,73.04,expense,Bills
+2026-07-16,Xbox Live Game Store Purchase,31.01,expense,Entertainment
+2026-07-16,Udemy Python Programming Course,24.54,expense,Education
+2026-07-16,CVS Pharmacy prescription,21.87,expense,Medical
+2026-07-16,Delta Airlines Ticket flight,169.06,expense,Travel
+2026-07-16,Xbox Live Game Store Purchase,62.89,expense,Entertainment
+2026-07-16,Chevron Gas Station,32.04,expense,Travel
+2026-07-16,Disneyland Theme Park Ticket,191.34,expense,Entertainment
+2026-07-16,Comcast Xfinity Internet Bill,63.96,expense,Bills
+2026-07-16,McDonald's Fast Food,15.8,expense,Food
+2026-07-16,Coursera Data Science Certification,45.38,expense,Education
+2026-07-16,Zara Clothing Apparel,55.15,expense,Shopping
+2026-07-16,Hilton Hotels Reservation,351.93,expense,Travel
+2026-07-16,Udemy Python Programming Course,21.56,expense,Education
+2026-07-16,City Water & Sewerage Bill,43.97,expense,Bills
+2026-07-16,Dental Care Clinic Orthodontics,131.77,expense,Medical
+2026-07-16,Spotify Music Premium,11.16,expense,Bills
+2026-07-16,Walgreens Drugstore medicine,51.6,expense,Medical
+2026-07-16,Subway Sandwiches Store,11.8,expense,Food
+2026-07-16,Freelance Software Project Invoice,716.88,income,Freelance
+2026-07-16,Uber Ride Share,26.51,expense,Travel
+2026-07-16,Whole Foods Grocery Delivery,118.55,expense,Food
+2026-07-16,College Bookstore Textbooks,174.83,expense,Education
+2026-07-16,Amazon Online Shopping,85.06,expense,Shopping
+2026-07-16,Walmart Grocery Store,100.05,expense,Food
+2026-07-16,CVS Pharmacy prescription,15.35,expense,Medical
+2026-07-16,Freelance Software Project Invoice,319.03,income,Freelance
+2026-07-16,College Bookstore Textbooks,137.46,expense,Education
+2026-07-16,Hilton Hotels Reservation,285.47,expense,Travel
+2026-07-16,Dental Care Clinic Orthodontics,90.32,expense,Medical
+2026-07-16,Comcast Xfinity Internet Bill,119.99,expense,Bills
+2026-07-16,Blue Shield Health Insurance Co-pay,25.59,expense,Medical
+2026-07-16,Nike Sneakers Purchase,59.84,expense,Shopping
+2026-07-16,Corporate Monthly Salary Paycheck,2830.77,income,Salary
+2026-07-16,Uber Ride Share,18.25,expense,Travel
+2026-07-16,Amtrak Train Transit,88.26,expense,Travel
+2026-07-16,Spotify Music Premium,12.53,expense,Bills
+2026-07-16,Amazon Online Shopping,35.27,expense,Shopping
+2026-07-16,UberEats Restaurant Delivery,73.05,expense,Food
+2026-07-16,Delta Airlines Ticket flight,279.58,expense,Travel
+2026-07-16,Xbox Live Game Store Purchase,31.64,expense,Entertainment
+2026-07-16,Walmart Grocery Store,37.62,expense,Food
+2026-07-16,CVS Pharmacy prescription,52.95,expense,Medical
+2026-07-16,Delta Airlines Ticket flight,468.79,expense,Travel
+2026-07-16,H&M Summer Collection Apparels,51.4,expense,Shopping
+2026-07-16,Duolingo Language App Premium,9.41,expense,Education
+2026-07-16,General Hospital Doctor Consultation,141.68,expense,Medical
+2026-07-16,General Hospital Doctor Consultation,160.67,expense,Medical
+2026-07-16,Blue Shield Health Insurance Co-pay,21.94,expense,Medical
+2026-07-16,Dental Care Clinic Orthodontics,138.25,expense,Medical
+2026-07-16,Dental Care Clinic Orthodontics,99.62,expense,Medical
+2026-07-16,Ticketmaster Concert Live Music,86.95,expense,Entertainment
+2026-07-16,Post Office Mail Shipping,11.24,expense,Others
+2026-07-16,Delta Airlines Ticket flight,268.8,expense,Travel
+2026-07-16,UberEats Restaurant Delivery,68.82,expense,Food
+2026-07-16,Subway Sandwiches Store,10.16,expense,Food
+2026-07-16,Freelance Software Project Invoice,861.79,income,Freelance
+2026-07-16,Disneyland Theme Park Ticket,130.1,expense,Entertainment
+2026-07-16,Comcast Xfinity Internet Bill,70.81,expense,Bills
+2026-07-16,Shell Gasoline Fill-up,59.22,expense,Travel
+2026-07-16,Dominos Pizza delivery,27.84,expense,Food
+2026-07-16,Walmart Grocery Store,119.68,expense,Food
+2026-07-16,Walgreens Drugstore medicine,61.59,expense,Medical
+2026-07-16,Local Charity Donation,91.7,expense,Others
+2026-07-16,Local Charity Donation,37.79,expense,Others
+2026-07-16,Metropolitan Power Grid Electric Bill,172.41,expense,Bills
+2026-07-16,CVS Pharmacy prescription,37.97,expense,Medical
+2026-07-16,Spotify Music Premium,12.84,expense,Bills
+2026-07-16,Freelance Software Project Invoice,846.92,income,Freelance
+2026-07-16,Bowlero Bowling Center Lanes,15.74,expense,Entertainment
+2026-07-16,Starbucks Coffee Shop,10.89,expense,Food
+2026-07-16,Walmart Grocery Store,43.17,expense,Food
+2026-07-16,Metropolitan Power Grid Electric Bill,72.1,expense,Bills
+2026-07-16,AMC Movie Theatre Tickets,34.22,expense,Entertainment
+2026-07-16,Zara Clothing Apparel,123.8,expense,Shopping
+2026-07-16,Verizon Monthly Wireless Bill,74.92,expense,Bills
+2026-07-16,Disneyland Theme Park Ticket,152.74,expense,Entertainment
+2026-07-16,AMC Movie Theatre Tickets,18.06,expense,Entertainment
+2026-07-16,Dental Care Clinic Orthodontics,237.16,expense,Medical
+2026-07-16,Coursera Data Science Certification,41.63,expense,Education
+2026-07-16,Dominos Pizza delivery,34.37,expense,Food
+2026-07-16,Zara Clothing Apparel,32.44,expense,Shopping
+2026-07-16,Local Charity Donation,12.63,expense,Others
+2026-07-16,Corporate Monthly Salary Paycheck,4358.11,income,Salary
+2026-07-16,Walgreens Drugstore medicine,30.39,expense,Medical
+2026-07-16,Freelance Software Project Invoice,501.25,income,Freelance
+2026-07-16,Ticketmaster Concert Live Music,90.6,expense,Entertainment
+2026-07-16,Target Retail Store,94.27,expense,Shopping
+2026-07-16,Dental Care Clinic Orthodontics,275.2,expense,Medical
+2026-07-16,Bowlero Bowling Center Lanes,35.58,expense,Entertainment
+2026-07-16,Amtrak Train Transit,85.08,expense,Travel
+2026-07-16,Dominos Pizza delivery,44.75,expense,Food
+2026-07-16,Local Charity Donation,48.1,expense,Others
+2026-07-16,Local Charity Donation,25.82,expense,Others
+2026-07-16,Investment Dividend Payment Deposit,150.34,income,Dividend
+2026-07-16,Post Office Mail Shipping,12.4,expense,Others
+2026-07-16,Investment Dividend Payment Deposit,151.7,income,Dividend
+2026-07-16,Disneyland Theme Park Ticket,118.92,expense,Entertainment
+2026-07-16,H&M Summer Collection Apparels,39.8,expense,Shopping
+2026-07-16,Disneyland Theme Park Ticket,223.22,expense,Entertainment
+2026-07-16,Amazon Online Shopping,189.26,expense,Shopping
+2026-07-16,CVS Pharmacy prescription,50.45,expense,Medical
+2026-07-16,Coursera Data Science Certification,40.39,expense,Education
+2026-07-16,State DMV Vehicle Registration,76.88,expense,Others
+2026-07-16,Hilton Hotels Reservation,310.75,expense,Travel
+2026-07-16,CVS Pharmacy prescription,58.68,expense,Medical
+2026-07-16,UNUSUAL Starbucks Coffee Shop (Anomaly),95.52,expense,Food
+2026-07-16,Spotify Music Premium,12.93,expense,Bills
+2026-07-16,Delta Airlines Ticket flight,221.38,expense,Travel
+2026-07-16,Rent Payment Apartment,1200.0,expense,Bills
+2026-07-16,Amtrak Train Transit,40.17,expense,Travel
+2026-07-16,Local Charity Donation,50.68,expense,Others
+2026-07-16,Dental Care Clinic Orthodontics,163.94,expense,Medical
+2026-07-16,College Bookstore Textbooks,90.58,expense,Education
+2026-07-16,Nike Sneakers Purchase,144.1,expense,Shopping
+2026-07-16,Netflix Streaming Subscription,14.74,expense,Bills
+2026-07-16,Best Buy Electronics Store,73.95,expense,Shopping
+2026-07-16,Subway Sandwiches Store,7.88,expense,Food
+2026-07-16,Ticketmaster Concert Live Music,167.48,expense,Entertainment
+2026-07-16,UNUSUAL Rent Payment Apartment (Anomaly),12082.77,expense,Bills
+2026-07-16,Subway Sandwiches Store,7.36,expense,Food
+2026-07-16,Comcast Xfinity Internet Bill,66.07,expense,Bills
+2026-07-16,H&M Summer Collection Apparels,74.03,expense,Shopping
+2026-07-16,Amazon Online Shopping,65.19,expense,Shopping
+2026-07-16,Bowlero Bowling Center Lanes,28.35,expense,Entertainment
+2026-07-16,UberEats Restaurant Delivery,65.11,expense,Food
+2026-07-16,Xbox Live Game Store Purchase,66.04,expense,Entertainment
+2026-07-16,McDonald's Fast Food,17.86,expense,Food
+2026-07-16,Udemy Python Programming Course,28.81,expense,Education
+2026-07-16,Ticketmaster Concert Live Music,149.89,expense,Entertainment
+2026-07-16,Comcast Xfinity Internet Bill,67.74,expense,Bills
+2026-07-16,Freelance Software Project Invoice,443.98,income,Freelance
+2026-07-16,Dental Care Clinic Orthodontics,234.54,expense,Medical
+2026-07-16,Corporate Monthly Salary Paycheck,2618.15,income,Salary
+2026-07-16,Xbox Live Game Store Purchase,28.97,expense,Entertainment
+2026-07-16,Walmart Grocery Store,53.41,expense,Food
+2026-07-16,Best Buy Electronics Store,381.82,expense,Shopping
+2026-07-16,Xbox Live Game Store Purchase,30.52,expense,Entertainment
+2026-07-16,Amazon Online Shopping,103.66,expense,Shopping
+2026-07-16,Netflix Streaming Subscription,10.47,expense,Bills
+2026-07-16,Delta Airlines Ticket flight,260.7,expense,Travel
+2026-07-16,Spotify Music Premium,14.98,expense,Bills
+2026-07-16,Amazon Online Shopping,135.03,expense,Shopping
+2026-07-16,Udemy Python Programming Course,24.1,expense,Education
+2026-07-16,Walgreens Drugstore medicine,23.42,expense,Medical
+2026-07-16,Verizon Monthly Wireless Bill,77.13,expense,Bills
+2026-07-16,Metropolitan Power Grid Electric Bill,151.7,expense,Bills
+2026-07-16,Spotify Music Premium,11.13,expense,Bills
+2026-07-16,College Bookstore Textbooks,170.57,expense,Education
+2026-07-16,Target Retail Store,61.86,expense,Shopping
+2026-07-16,Freelance Software Project Invoice,627.62,income,Freelance
+2026-07-16,College Bookstore Textbooks,102.71,expense,Education
+2026-07-16,Bowlero Bowling Center Lanes,40.05,expense,Entertainment
+2026-07-16,Amazon Online Shopping,33.44,expense,Shopping
+2026-07-16,Metropolitan Power Grid Electric Bill,164.76,expense,Bills
+2026-07-16,Walmart Grocery Store,81.6,expense,Food
+2026-07-16,Target Retail Store,92.29,expense,Shopping
+2026-07-16,Uber Ride Share,40.62,expense,Travel
+2026-07-16,Spotify Music Premium,14.01,expense,Bills
+2026-07-16,CVS Pharmacy prescription,33.25,expense,Medical
+2026-07-16,City Water & Sewerage Bill,35.61,expense,Bills
+2026-07-16,Bowlero Bowling Center Lanes,44.38,expense,Entertainment
+2026-07-16,Zara Clothing Apparel,55.12,expense,Shopping
+2026-07-16,Blue Shield Health Insurance Co-pay,23.21,expense,Medical
+2026-07-16,Uber Ride Share,31.05,expense,Travel
+2026-07-16,H&M Summer Collection Apparels,63.24,expense,Shopping
+2026-07-16,Rent Payment Apartment,1200.0,expense,Bills
+2026-07-16,Investment Dividend Payment Deposit,144.15,income,Dividend
+2026-07-16,Ticketmaster Concert Live Music,83.02,expense,Entertainment
+2026-07-16,Best Buy Electronics Store,346.09,expense,Shopping
+2026-07-16,Best Buy Electronics Store,302.79,expense,Shopping
+2026-07-16,Udemy Python Programming Course,22.72,expense,Education
+2026-07-16,Subway Sandwiches Store,10.83,expense,Food
+2026-07-16,Amazon Online Shopping,158.25,expense,Shopping
+2026-07-16,Post Office Mail Shipping,10.12,expense,Others
+2026-07-16,Duolingo Language App Premium,13.56,expense,Education
+2026-07-16,Duolingo Language App Premium,9.75,expense,Education
+2026-07-16,Target Retail Store,29.81,expense,Shopping
+2026-07-16,Coursera Data Science Certification,43.94,expense,Education
+2026-07-16,Target Retail Store,102.63,expense,Shopping
+2026-07-16,H&M Summer Collection Apparels,74.52,expense,Shopping
+2026-07-16,Subway Sandwiches Store,16.3,expense,Food
+2026-07-16,McDonald's Fast Food,20.13,expense,Food
+2026-07-16,Corporate Monthly Salary Paycheck,3160.97,income,Salary
+2026-07-16,Walgreens Drugstore medicine,49.51,expense,Medical
+2026-07-16,Dominos Pizza delivery,31.25,expense,Food
+2026-07-16,Amazon Online Shopping,100.96,expense,Shopping
+2026-07-16,Post Office Mail Shipping,24.19,expense,Others
+2026-07-16,Dental Care Clinic Orthodontics,260.46,expense,Medical
+2026-07-16,Walgreens Drugstore medicine,22.32,expense,Medical
+2026-07-16,Duolingo Language App Premium,13.84,expense,Education
+2026-07-16,Local Charity Donation,55.91,expense,Others
+2026-07-16,City Water & Sewerage Bill,35.98,expense,Bills
+2026-07-16,Netflix Streaming Subscription,12.59,expense,Bills
+2026-07-16,Target Retail Store,82.18,expense,Shopping
+2026-07-16,Whole Foods Grocery Delivery,62.12,expense,Food
+2026-07-16,Freelance Software Project Invoice,611.87,income,Freelance
+2026-07-16,Hilton Hotels Reservation,343.08,expense,Travel
+2026-07-16,Netflix Streaming Subscription,10.73,expense,Bills
+2026-07-16,Dental Care Clinic Orthodontics,213.68,expense,Medical
+2026-07-16,Bowlero Bowling Center Lanes,17.74,expense,Entertainment
+2026-07-16,McDonald's Fast Food,20.4,expense,Food
+2026-07-16,Disneyland Theme Park Ticket,215.94,expense,Entertainment
+2026-07-16,Hilton Hotels Reservation,281.44,expense,Travel
+2026-07-16,Nike Sneakers Purchase,149.68,expense,Shopping
+2026-07-16,Comcast Xfinity Internet Bill,84.27,expense,Bills
+2026-07-16,Verizon Monthly Wireless Bill,62.56,expense,Bills
+2026-07-16,Comcast Xfinity Internet Bill,97.33,expense,Bills
+2026-07-16,Best Buy Electronics Store,358.84,expense,Shopping
+2026-07-16,Hilton Hotels Reservation,353.78,expense,Travel
+2026-07-16,Hilton Hotels Reservation,397.28,expense,Travel
+2026-07-16,Target Retail Store,114.81,expense,Shopping
+2026-07-16,Ticketmaster Concert Live Music,121.29,expense,Entertainment
+2026-07-16,Duolingo Language App Premium,7.82,expense,Education
+2026-07-16,Hilton Hotels Reservation,146.74,expense,Travel
+2026-07-16,McDonald's Fast Food,15.24,expense,Food
+2026-07-16,Freelance Software Project Invoice,806.47,income,Freelance
+2026-07-16,Freelance Software Project Invoice,1056.4,income,Freelance
+2026-07-16,Bowlero Bowling Center Lanes,38.4,expense,Entertainment
+2026-07-16,Subway Sandwiches Store,9.13,expense,Food
+2026-07-16,Dominos Pizza delivery,28.32,expense,Food
+2026-07-16,AMC Movie Theatre Tickets,37.5,expense,Entertainment
+2026-07-16,Zara Clothing Apparel,47.13,expense,Shopping
+2026-07-16,Verizon Monthly Wireless Bill,103.59,expense,Bills
+2026-07-16,Delta Airlines Ticket flight,168.17,expense,Travel
+2026-07-16,Subway Sandwiches Store,13.53,expense,Food
+2026-07-16,Amazon Online Shopping,102.6,expense,Shopping
+2026-07-16,Post Office Mail Shipping,13.02,expense,Others
+2026-07-16,Starbucks Coffee Shop,4.7,expense,Food
+2026-07-16,Investment Dividend Payment Deposit,117.78,income,Dividend
+2026-07-16,Best Buy Electronics Store,205.66,expense,Shopping
+2026-07-16,Hilton Hotels Reservation,179.83,expense,Travel
+2026-07-16,Duolingo Language App Premium,8.76,expense,Education
+2026-07-16,Corporate Monthly Salary Paycheck,3690.63,income,Salary
+2026-07-16,Uber Ride Share,19.54,expense,Travel
+2026-07-16,Blue Shield Health Insurance Co-pay,35.02,expense,Medical
+2026-07-16,Delta Airlines Ticket flight,257.79,expense,Travel
+2026-07-16,UberEats Restaurant Delivery,34.46,expense,Food
+2026-07-16,Dominos Pizza delivery,37.25,expense,Food
+2026-07-16,Verizon Monthly Wireless Bill,66.64,expense,Bills
+2026-07-16,CVS Pharmacy prescription,27.73,expense,Medical
+2026-07-16,Amazon Online Shopping,136.0,expense,Shopping
+2026-07-16,H&M Summer Collection Apparels,43.56,expense,Shopping
+2026-07-16,Comcast Xfinity Internet Bill,107.67,expense,Bills
+2026-07-16,Duolingo Language App Premium,13.36,expense,Education
+2026-07-16,Nike Sneakers Purchase,79.54,expense,Shopping
+2026-07-16,Nike Sneakers Purchase,132.61,expense,Shopping
+2026-07-16,College Bookstore Textbooks,198.99,expense,Education
+2026-07-16,Dental Care Clinic Orthodontics,246.1,expense,Medical
+2026-07-16,General Hospital Doctor Consultation,86.0,expense,Medical
+2026-07-16,Xbox Live Game Store Purchase,44.25,expense,Entertainment
+2026-07-16,Dominos Pizza delivery,43.91,expense,Food
+2026-07-16,Uber Ride Share,21.88,expense,Travel
+2026-07-16,Comcast Xfinity Internet Bill,67.66,expense,Bills
+2026-07-16,Local Charity Donation,38.66,expense,Others
+2026-07-16,Investment Dividend Payment Deposit,87.0,income,Dividend
+2026-07-16,Target Retail Store,41.73,expense,Shopping
+2026-07-16,Dominos Pizza delivery,28.31,expense,Food
+2026-07-16,Best Buy Electronics Store,365.16,expense,Shopping
+2026-07-16,Investment Dividend Payment Deposit,199.1,income,Dividend
+2026-07-16,Verizon Monthly Wireless Bill,89.29,expense,Bills
+2026-07-16,Best Buy Electronics Store,185.24,expense,Shopping
+2026-07-16,Delta Airlines Ticket flight,393.37,expense,Travel
+2026-07-16,Amtrak Train Transit,52.04,expense,Travel
+2026-07-16,Investment Dividend Payment Deposit,161.39,income,Dividend
+2026-07-16,Rent Payment Apartment,1200.0,expense,Bills
+2026-07-16,H&M Summer Collection Apparels,77.65,expense,Shopping
+2026-07-16,Nike Sneakers Purchase,135.87,expense,Shopping
+2026-07-16,Starbucks Coffee Shop,14.51,expense,Food
+2026-07-16,Subway Sandwiches Store,13.83,expense,Food
+2026-07-16,UNUSUAL Ticketmaster Concert Live Music (Anomaly),1279.19,expense,Entertainment
+2026-07-16,Investment Dividend Payment Deposit,113.42,income,Dividend
+2026-07-16,Udemy Python Programming Course,13.41,expense,Education
+2026-07-16,Investment Dividend Payment Deposit,170.36,income,Dividend
+2026-07-16,CVS Pharmacy prescription,17.47,expense,Medical
+2026-07-16,Investment Dividend Payment Deposit,72.2,income,Dividend
+2026-07-16,Walmart Grocery Store,32.58,expense,Food
+2026-07-16,Verizon Monthly Wireless Bill,78.42,expense,Bills
+2026-07-16,Rent Payment Apartment,1200.0,expense,Bills
+2026-07-16,Rent Payment Apartment,1200.0,expense,Bills
+2026-07-16,Duolingo Language App Premium,10.1,expense,Education
+2026-07-16,Udemy Python Programming Course,27.25,expense,Education
+2026-07-16,General Hospital Doctor Consultation,124.71,expense,Medical
