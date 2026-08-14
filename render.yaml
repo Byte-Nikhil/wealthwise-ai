@@ -1,10 +1,11 @@
 services:
   # -------------------------------------------------------------
-  # Backend Web Service (FastAPI + Python Uvicorn)
+  # Backend Web Service (FastAPI + Python Uvicorn) - FREE Plan
   # -------------------------------------------------------------
   - type: web
     name: wealthwise-backend
     env: python
+    plan: free
     region: singapore
     buildCommand: "pip install -r requirements.txt && python datasets/sample_data_generator.py && python train_models.py"
     startCommand: "python -m uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT"
@@ -15,7 +16,7 @@ services:
         value: "10080"
 
   # -------------------------------------------------------------
-  # Frontend Static Site (React + Vite)
+  # Frontend Static Site (React + Vite) - Always FREE on Render
   # -------------------------------------------------------------
   - type: web
     name: wealthwise-frontend
